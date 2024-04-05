@@ -1,0 +1,33 @@
+.txt-primary{
+    color: #004E7D !important;
+    font-weight: 600 !important;
+}
+.carousel-item{
+    height: 80vh;
+}
+.card--image-tile__blur {
+    height: 100%;
+    width: 50%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    bottom: auto;
+    left: 0;
+    z-index: 2;
+    background: #0b528494;
+    -webkit-backdrop-filter: blur(0.3125rem);
+    backdrop-filter: blur(0.3125rem);
+}
+h1{
+    color: #004E7D;
+}
+.card-detail{
+    padding: 10px;
+}
+
+.Insights-News-cards{
+    background-color: #004E7D !important;
+    width: 70%;
+    padding: 20px;
+    margin: 0 auto;
+}

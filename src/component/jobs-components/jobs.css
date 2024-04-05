@@ -1,0 +1,292 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* --------------------------------------------------
+job page css 
+----------------------------------------------------- */
+    /* banner section css here  */
+.job-banner {
+    background-image: url('../../public/assets/images/job-banner.webp'); /* Update with the actual path to your image */
+    background-size: cover; /* This will ensure the image covers the entire div */
+    background-position: center; /* This centers the background image */
+    height: 100vh; /* Set a height for the div if it doesn't have content or adjust as needed */
+    width: 100%; /* Adjust the width as needed, this example makes it full width */
+    position: relative;
+  }
+  .banner-align{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    color: white;
+    z-index: 5;
+    
+  }
+  .banner-align h2{
+    width: 40%;
+    font-size: 2.7rem;
+  }
+  .banner-align p{
+    font-size: 1.5rem;
+    margin: 0;
+    font-weight: 400;
+  }
+  .job-banner .overlay {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    background: rgba(0,0,0,0.4);
+    z-index: 1;
+}
+.main-container {
+    margin: 0 auto;
+    width: 90%;
+    position: relative;
+    z-index: 2; /* This positions the entire container and its children above the overlay */
+  }
+  .job-search-form{
+    display: flex;
+    column-gap: 5px;
+    width: 75%;
+  }
+  .job-search-form div {
+    margin: 0;
+    padding: 0;
+    width: 100%; /* Ensures divs within the form take full width */
+}
+  .job-search-form input{
+    border: none;
+    padding: 9px 9px;
+    width: 100%;
+  }
+  .job-search-form button{
+    border: none;
+    padding: 9px;
+    width: 30%;
+    background-color: #004987;
+    color: #ffda00;
+  }
+  .job-search-form button:hover{
+    border: none;
+    padding: 9px;
+    width: 30%;
+    background-color: #ffda00;
+    color: #004987;
+  }
+  .job-search-form input:focus{
+    border: none;
+    outline: none;
+  }
+
+  /* ------------ jobs filters and jobs css here ----------- */
+  .jobs-and-filters{
+    width: 90%;
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: 30% auto;
+    column-gap: 15px;
+  }
+.jobs-and-filters h1{
+    padding-bottom: 13px;
+    border-bottom: 1px solid #9b9b9b;
+    margin: 0;
+}
+
+
+.jobs-and-filters .left-filter-cate .accordion-item .accordion-button:focus {
+    border: 2px dotted #9b9b9b;
+    box-shadow: none;
+}
+.jobs-and-filters .left-filter-cate .accordion-item .accordion-body {
+    padding: 1rem 0.25rem;
+}
+.jobs-and-filters .left-filter-cate .accordion-item{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #9b9b9b;
+}
+.jobs-and-filters .left-filter-cate .accordion-item .accordion-button{
+    padding: 12px 0;
+}
+
+.jobs-types ul{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 9px;
+    padding: 7px 0;
+    margin: 0;
+}
+.jobs-types ul li{
+    list-style: none;
+    display: flex;
+    column-gap: 5px;
+    border-right: 1px solid #9b9b9b;
+    padding-right: 7px;
+}
+.jobs-types ul li:nth-child(5){
+  
+    border-right: unset;
+    padding: 0;
+}
+.jobs-items{
+    padding: 15px 0;
+    border-bottom: 1px solid #9b9b9b;
+    display: grid;
+    grid-template-columns: auto 20%;
+
+}
+.jobs-items-right{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.jobs-items-right a{
+    border: 1px solid #9b9b9b;
+    padding: 10px 12px;
+    margin-left: 5px;
+    text-decoration: none;
+    color: black;
+}
+.jobs-items-right a:hover{
+    color: white;
+    background-color: #004987;
+}
+.job-alert-inner{
+    border: 1px solid #9b9b9b;
+    margin-top: 30px;
+}
+.job-alert-inner h4{
+    border-bottom: 1px solid #9b9b9b;
+    padding:  15px 25px;
+}
+.job-alert-inner p{
+    padding:  0 25px;
+}
+
+
+
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  input[type="email"], select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .submit-btn {
+    width: 100%;
+    padding: 14px 20px;
+    border: 1px solid #9b9b9b;
+    border-radius: 4px;
+    cursor: pointer;
+    background: white;
+  }
+  
+  .submit-btn:hover {
+    background-color: #004987;
+    color: white;
+  }
+  
+  label {
+    display: block;
+  }
+  .dropdown-custom{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+
+  }
+  .dropdown-custom label{
+   text-wrap: nowrap;
+
+  }
+  .alert-form{
+    padding:  15px 25px;
+
+  }
+  .about-company{
+    text-align: center;
+  }
+  .about-company h2{
+    padding: 30px 0 0 0;
+  }
+  .about-company a{
+    font-size: 1.2rem;
+    color: #004987;
+    font-weight: 500;
+    text-wrap: nowrap;
+  }
+  .about-company span{
+    font-size: 1.2rem;
+    color: #000;
+    font-weight: 500;
+  }
+  .about-company2{
+    text-align: center;
+  }
+  .about-company2 h5{
+    padding: 30px 0 0 0;
+  } 
+  .about-company2 a{
+    font-size: 1.2rem;
+    color: #004987;
+    font-weight: 500;
+    text-wrap: nowrap;
+  }
+
+  /* --------------- community section css ------------- */
+
+.talent-community-section {
+    background-color: #AED6F1; /* Replace with the exact color code you need */
+    padding: 20px; /* Adjust padding as needed */
+    text-align: center; /* Centers the text */
+    color: #333; /* Adjust the color based on your design */
+}
+
+.talent-community-section h1 {
+    margin: 0 0 10px 0; /* Remove default margin and add some space below */
+    font-size: 2em; /* Adjust font size as needed */
+    color: #2C3E50; /* Dark blue color; adjust as needed */
+}
+
+.talent-community-section p {
+    margin: 0 0 20px 0; /* Remove default margin and add some space below */
+    font-size: 1em; /* Adjust font size as needed */
+    color: #4A4A4A; /* Grey text color; adjust as needed */
+}
+
+.cta-button {
+    background-color: #F4D03F; /* Yellow background color; adjust as needed */
+    border: none;
+    padding: 10px 20px; /* Adjust padding as needed */
+    font-size: 1em; /* Adjust font size as needed */
+    cursor: pointer; /* Changes cursor to the pointer hand */
+    color: #2C3E50; /* Text color; adjust as needed */
+    border-radius: 5px; /* Optional: if you want rounded corners */
+}
+
+.cta-button:hover {
+    background-color: #F7DC6F; /* Lighter yellow on hover; adjust as needed */
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    .talent-community-section h1 {
+        font-size: 1.5em;
+    }
+
+    .talent-community-section p {
+        font-size: 0.9em;
+    }
+}

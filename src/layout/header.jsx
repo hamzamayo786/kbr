@@ -8,7 +8,7 @@ const Header = () => {
 
             {/* <div class="preloader" id="preloader"></div> */}
             {/* <!--body-begins---> */}
-            <div id="page" class="page-wrapper header-sticky position-fixed header-v1 hide-topbar-mobile header-sticky z-3 w-100">
+            <div id="page" class="page-wrapper header-sticky position-fixed header-v1 hide-topbar-mobile header-sticky z-3 w-100 top-0">
                 
                 <nav class="navbar navbar-expand-lg navbar-light bg-light">
                     <div class="container">
@@ -20,13 +20,13 @@ const Header = () => {
 
                             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#!">Home</a>
+                                    <a class="nav-link" href="/">Home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#!">About US</a>
+                                    <a class="nav-link" href="what-we-do">What We Do</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#!">Testimonials</a>
+                                    <a class="nav-link" href="who-we-are">About US</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="#!">Careers</a>

@@ -31,3 +31,20 @@ h1{
     padding: 20px;
     margin: 0 auto;
 }
+
+/* bannner2 */
+.Banner2{
+    background-image: url('../../../assets/img/job-tec.webp');
+    height: 80vh;
+    overflow: hidden;
+
+}
+.blur-banner2{
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+    background: #0b528494;
+    -webkit-backdrop-filter: blur(0.3125rem);
+    backdrop-filter: blur(0.3125rem);
+    
+}

@@ -5,7 +5,7 @@ const Detail = () => {
     return (
         <>
         
-            <New_Insights />
+            <New_Insights  imgSrc="../../assets/images/job-tec.webp"  imgSrc1="../../assets/images/job-tec.webp" />
             
             {/* working team */}
             <section className="working-team container mt-5 mb-5">

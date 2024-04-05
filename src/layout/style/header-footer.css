@@ -113,6 +113,7 @@ body{
 }
 a {
     text-decoration: none !important;
+    color: #fff;
 }
 .navbar{
     background-color: #0B5184 !important;

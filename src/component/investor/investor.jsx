@@ -7,7 +7,7 @@ function Investor() {
     <>
     sdfsd
         <div class="investor-day-section">
-                <div class="container investor-content">
+                <div class="investor-content">
                     <h1>KBR's 2024 Investor Day</h1>
                     <p class="date">May 8, 2024</p>
                     <a href="#" class="webcast-link">Webcast</a><br/>

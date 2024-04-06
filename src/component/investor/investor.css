@@ -11,9 +11,12 @@
     position: relative;
     display: flex;
     align-items: center;
-    
+
   }
-  
+  .investor-content{
+    width: 80%;
+    margin: 0 auto;
+  }
  .investor-stock-info{
     background-color: #00225a;
     bottom: -25%;
@@ -59,4 +62,14 @@
 }
 .module_container--inner{
     padding: 5px 0;
+}
+.investor-content h1{
+    color: white;
+    margin: 0;
+}
+.module-stock-header_stockQuote i{
+    color: yellow;
+}
+.read-more i{
+    color: yellow;
 }

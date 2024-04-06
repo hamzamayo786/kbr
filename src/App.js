@@ -11,7 +11,11 @@ import AboutUs from './component/aboutus/aboutUs';
 import Jobs from './component/jobs-components/jobs-page';
 import Blog from './component/Blog/blog';
 import BlogDetail from './component/Blog/blog-detail';
+<<<<<<< HEAD
+import Investor from './component/investor/investor';
+=======
 import ContactUs from './component/Contact Us/contact';
+>>>>>>> 65b66ff7d57bda44841697904b677b9aa0d36e61
 
 function App() {
   return (
@@ -24,10 +28,11 @@ function App() {
         <Route path='careers' element={<Jobs />} />
         <Route path='who-we-are' element={<AboutUs />} />
         <Route path='insights$news' element={<Blog />}>
-          <Route path='' element={<Navigate to='BlogDetail' />} />
-          <Route path='BlogDetail' element={<BlogDetail />} />
+          <Route path='' element={<Navigate to='blogDetail' />} />
+          <Route path='blogDetail' element={<BlogDetail />} />
         </Route>
         <Route path='' element={<ContactUs />} />
+>>>>>>> 65b66ff7d57bda44841697904b677b9aa0d36e61
       </Routes>
       <Footer />
     </>

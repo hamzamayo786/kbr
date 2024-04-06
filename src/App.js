@@ -26,7 +26,7 @@ function App() {
         <Route path='who-we-are' element={<AboutUs />} />
         <Route path='insights$news' element={<Blog />}>
           <Route path='' element={<Navigate to='BlogDetail' />} />
-          <Route path='BlogDetail' element={BlogDetail} />          
+          <Route path='BlogDetail' element={<BlogDetail/>} />          
         </Route>
         <Route path='investor' element={<Investor/>} />
         <Route path='' element={<ContactUs />} />

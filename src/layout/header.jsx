@@ -12,7 +12,9 @@ const Header = () => {
                 
                 <nav class="navbar navbar-expand-lg navbar-light bg-light">
                     <div class="container">
-                        <a class="navbar-brand" href="#">LOGO</a>
+                        <a class="navbar-brand" href="#">
+                            <img className="main-logo " src="../../../../assets/images/main-logo.png" alt="KBR team" />
+                        </a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
@@ -28,11 +30,19 @@ const Header = () => {
                                 <li class="nav-item">
                                     <a class="nav-link" href="who-we-are">About US</a>
                                 </li>
+                                
                                 <li class="nav-item">
                                     <a class="nav-link" href="Careers">Careers</a>
                                 </li>
                                 <li class="nav-item">
+<<<<<<< HEAD
                                     <a class="nav-link" href="blog">Blog</a>
+=======
+                                    <a class="nav-link" href="Careers">Investor</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#!">Contact</a>
+>>>>>>> 84352e4baf14c3071586cc51c77824ecfaddd88f
                                 </li>
                             </ul>
 

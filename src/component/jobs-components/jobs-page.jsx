@@ -1,7 +1,7 @@
 import React from 'react';
-import './jobs.css'
+import './jobs.css';
 import Community from './community-section';
-import '../../assets/js/jobs-page'
+
 
 function Jobs() {
   return (
@@ -150,7 +150,7 @@ function Jobs() {
             </div>
             <div className='about-company'>
                 <h2>About Us</h2>
-                <img src='../../../../public/assets/images/kbr-logo.png' ></img>
+                <img className="kbr-site-logo img-fluid w-100 " src="../../../../assets/images/logo.jpg" alt="KBR team" />
                 <h4 className='about-subheading'>
                     KBR — Delivering Solutions, Changing the World.
                 </h4>

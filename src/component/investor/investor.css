@@ -1,0 +1,61 @@
+.investor-day-section {
+    background-image: url('../../../public/assets/images/investor-hero-section.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.6); /* To enhance text readability */
+    height: 75vh; /* Adjust the height as needed */
+   
+    padding: 20px;
+    margin-bottom: 180px;
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+ .investor-stock-info{
+    background-color: #00225a;
+    bottom: -25%;
+    position: absolute;
+    display: grid;
+    width: 80%;
+    grid-template-columns: auto 40%;
+    left: 50%;
+    transform: translateX(-50%);
+ }
+ .investor-stock-info .investor-stock-inner{
+    display: grid;
+    align-items: center;
+     padding: 20px;
+ }
+ .module-stock-header_description1 {
+    display: inline-block;
+    font-size: 2rem;
+    line-height: 38px;
+    padding-right: 5px;
+}
+.module-stock-header_stock-price {
+    display: inline-block;
+    font-size: 2rem;
+    line-height: 38px;
+    color: #fff;
+    padding-right: 5px;
+}
+.module-stock-header_up {
+    color: #389D27;
+}
+.module-stock-header_change, .module-stock-header_percent-change {
+    display: inline-block;
+    font-size: 2rem;
+    line-height: 38px;
+    position: relative;
+}
+ .module-stock-header_date-wrap span {
+    display: inline-block;
+    font-size: 1rem;
+    line-height: 19px;
+    padding-left: 5px;
+}
+.module_container--inner{
+    padding: 5px 0;
+}

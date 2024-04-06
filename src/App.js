@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
@@ -14,6 +13,7 @@ import AboutUs from './component/aboutus/aboutUs';
 import Jobs from './component/jobs-components/jobs-page';
 import Blog from './component/Blog/blog';
 import BlogDetail from './component/Blog/blog-detail';
+import Investor from './component/investor/investor';
 
 function App() {
   return (
@@ -27,8 +27,10 @@ function App() {
         <Route path='who-we-are' element={<AboutUs />} />
         <Route path='insights$news' element={<Blog />}>
           <Route path='' element={<Navigate to='BlogDetail' />} />
-          <Route path='BlogDetail' element={BlogDetail} />
+          <Route path='BlogDetail' element={BlogDetail} />          
         </Route>
+        <Route path='investor' element={<Investor/>} />
+
       </Routes>
       <Footer />
     </>

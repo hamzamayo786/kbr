@@ -35,14 +35,14 @@ const Header = () => {
                                     <a class="nav-link" href="Careers">Careers</a>
                                 </li>
                                 <li class="nav-item">
-<<<<<<< HEAD
-                                    <a class="nav-link" href="blog">Blog</a>
-=======
-                                    <a class="nav-link" href="Careers">Investor</a>
+                                    <a class="nav-link" href="insights$news">Insights & News</a>
                                 </li>
                                 <li class="nav-item">
+                                <a class="nav-link" href="Careers">Investor</a>
+                                </li>
+                                
+                                <li class="nav-item">
                                     <a class="nav-link" href="#!">Contact</a>
->>>>>>> 84352e4baf14c3071586cc51c77824ecfaddd88f
                                 </li>
                             </ul>
 

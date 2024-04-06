@@ -13,6 +13,7 @@ import SuitableTec from './component/what-we-do/suitable-tec';
 import AboutUs from './component/aboutus/aboutUs';
 import Jobs from './component/jobs-components/jobs-page';
 import Blog from './component/Blog/blog';
+import BlogDetail from './component/Blog/blog-detail';
 
 function App() {
   return (
@@ -25,7 +26,10 @@ function App() {
         <Route path='suitable-tec' element={<SuitableTec />} />
         <Route path='Careers' element={<Jobs />} />
         <Route path='who-we-are' element={<AboutUs />} />
-        <Route path='blog' element={<Blog />} />
+        <Route path='insights$news' element={<Blog />}>
+          <Route path='' element={<Navigate to='BlogDetail' />} />
+          <Route path='BlogDetail' element={BlogDetail} />
+        </Route>
       </Routes>
       <Footer />
     </>

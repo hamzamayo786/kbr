@@ -54,38 +54,41 @@ const Footer = () => {
                         <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
 
                             <h6 class="text-uppercase fw-bold mb-4">
-                                Products
+                             
                             </h6>
                             <p>
-                                <a href="#!" class="text-reset">Angular</a>
+                                <a href="/" class="text-reset">Home</a>
                             </p>
                             <p>
-                                <a href="#!" class="text-reset">React</a>
+                                <a href="what-we-do" class="text-reset">What WE DO</a>
                             </p>
                             <p>
-                                <a href="#!" class="text-reset">Vue</a>
+                                <a href="who-we-are" class="text-reset">About US</a>
                             </p>
                             <p>
-                                <a href="#!" class="text-reset">Laravel</a>
+                                <a href="careers" class="text-reset">Careers</a>
                             </p>
                         </div>
 
                         <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
 
                             <h6 class="text-uppercase fw-bold mb-4">
-                                Useful links
+                               
                             </h6>
                             <p>
-                                <a href="#!" class="text-reset">Pricing</a>
+                                <a href="insights$news" class="text-reset">Insights & News</a>
                             </p>
                             <p>
-                                <a href="#!" class="text-reset">Settings</a>
+                                <a href="#!" class="text-reset">Investor</a>
                             </p>
                             <p>
-                                <a href="#!" class="text-reset">Orders</a>
+                                <a href="contact-us" class="text-reset">Contact Us</a>
                             </p>
                             <p>
-                                <a href="#!" class="text-reset">Help</a>
+                                <a href="#!" class="text-reset">Privacy Policy</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">Terms And Conditions</a>
                             </p>
                         </div>
                         <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
@@ -104,12 +107,12 @@ const Footer = () => {
                 </div>
             </section>
 
-            {/* Other sections remain the same, just replace `class` with `className` */}
+         
 
             <div className="text-center p-4" style={{ backgroundColor: "rgba(0, 0, 0, 0.05)" }}>
                 © 2021 Copyright:
                 <a className="text-reset fw-bold" href="https://mdbootstrap.com/">KBR</a> <br/>
-                <a className="text-reset fw-bold" href="">Designed by bmymarketer</a>
+                <a className="text-reset fw-bold" href="">Designed by <a href="https://bmymarketer.com/" target="_blank">bmymarketer</a></a>
             </div>
             
         </footer>

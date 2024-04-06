@@ -82,7 +82,7 @@ const AboutUs = () => {
                 <div class="container">
                     <h1 className="txt-primary">Join Our Team</h1>
                     <p>The people of KBR change the world every day, providing the intelligence to solve any challenge. If you're up to the task, we want you on our team.</p>
-                    <a href="#" class="search-jobs-btn">SEARCH JOB OPENINGS</a>
+                    <a href="Careers" class="search-jobs-btn">SEARCH JOB OPENINGS</a>
                 </div>
             </div>
 

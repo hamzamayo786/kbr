@@ -3,7 +3,17 @@
     font-weight: 100;
     font-style: normal;
   }
-  
+  .navbar-brand img{
+    width: 75px;
+    height: auto;
+  }
+
+  .footer-branding img{
+    width: 100px;
+    height: auto;
+    margin: 5px auto;
+
+  }
   .poppins-extralight {
     font-family: "Poppins", sans-serif;
     font-weight: 200;

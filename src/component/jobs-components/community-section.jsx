@@ -9,6 +9,7 @@ function Community() {
             <p>Receive up-to-the-minute job openings tailored just for you.</p>
             <button class="cta-button">Stay in the Know</button>
         </div>
+        
     </>
   );
 }

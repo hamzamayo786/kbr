@@ -29,7 +29,9 @@ const Banner = () => {
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
+            
         </section>
+        
     );
 }
 

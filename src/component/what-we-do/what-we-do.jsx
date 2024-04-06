@@ -1,10 +1,12 @@
 
 import React from "react";
 import New_Insights from "../home/news&insight";
+import Banner2 from "../../layout/banner2";
 
 const WhatWeDo = () => {
     return (
         <>
+        <Banner2 heading="What WE DO"/>
             <section className="mt-5 mb-5">
                 <div className=" container pt-5 pb-3">
                     <h1 className="mb-5  display-4">Delivering Solutions, Changing the World®</h1>

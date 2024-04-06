@@ -8,7 +8,7 @@ const AboutUs = () => {
         <>
             <Banner2 heading="WHO WE ARE" />
 
-            <section className="mt-5 mb-5  container-fluid text-center">
+            <section className="mt-5 mb-5  container text-center">
                 <div>
                     <p className=" mb-5 display-4 txt-primary"> We Deliver®</p>
                     <p> At KBR, we partner with government and industry clients to provide purposeful and comprehensive solutions with an emphasis on efficiency and safety. With a full portfolio of services, proprietary technologies and expertise, our employees are ready to handle projects and missions from planning and design to sustainability and maintenance. Whether at the bottom of the ocean or in outer space, our clients trust us to deliver the impossible on a daily basis.</p>
@@ -28,28 +28,65 @@ const AboutUs = () => {
                 </div>
                 {/* video */}
                 {/* news&insights */}
+            </section>
 
+            <section className=" container-fluid">
                 <New_Insights imgSrc="../../assets/images/job-tec.webp" imgSrc1="../../assets/images/job-tec.webp" />
 
                 {/* news&insights */}
 
-                {/*  */}
-                <div class="executive-leadership-section">
-                    <div class="executive-portraits">
-                        {/* <!-- Repeat this block for each portrait, replacing the src with your image URLs --> */}
-                        <div class="portrait">
-                            <img src="https://via.placeholder.com/150" alt="Leader Name"/>
-                        </div>
-                        {/* <!-- ... other portraits --> */}
+                {/*team  */}
+                <div class="zero-harm-section">
+                    <div class="content">
+                        <h2>Zero Harm</h2>
+                        <p>KBR’s sustainability policy was built on the foundation of our industry-leading Zero Harm safety platform.</p>
+                        <p>Just as we’re committed to safeguarding the health and safety of our people, we are also committed to doing what’s right and making decisions that count for our planet, our communities, our business, and future generations.</p>
+                        <a href="#" class="learn-more-btn">Learn More &rarr;</a>
                     </div>
-                    <div class="executive-info">
-                        <h2>Executive Leadership</h2>
-                        <p>Our corporate leaders come from diverse backgrounds, work settings and experiences, making them a critical asset to our operations around the world.</p>
-                        <a href="#" class="executive-link">Meet our Executive Leadership &rarr;</a>
+                    <div class="image-container">
+                        <img className="img-fluid w-100" src="../../../../assets/images/Zero-Harm.jpg" alt="KBR team" />
                     </div>
                 </div>
+                {/* team */}
+
+                {/*team  */}
+                <div class="community-section">
+                    <div class="community-content">
+                        <h2>Zero Harm</h2>
+                        <p>KBR’s sustainability policy was built on the foundation of our industry-leading Zero Harm safety platform.</p>
+                        <p>Just as we’re committed to safeguarding the health and safety of our people, we are also committed to doing what’s right and making decisions that count for our planet, our communities, our business, and future generations.</p>
+                        <a href="#" class="learn-more-btn">Learn More &rarr;</a>
+                    </div>
+                    <div class="image-container">
+                        <img className="img-fluid w-100" src="../../../../assets/images/Zero-Harm.jpg" alt="KBR team" />
+                    </div>
+                </div>
+                {/* team */}
+
+                {/*team  */}
+                <div class="zero-harm-section">
+                    <div class="content">
+                        <h2>Zero Harm</h2>
+                        <p>KBR’s sustainability policy was built on the foundation of our industry-leading Zero Harm safety platform.</p>
+                        <p>Just as we’re committed to safeguarding the health and safety of our people, we are also committed to doing what’s right and making decisions that count for our planet, our communities, our business, and future generations.</p>
+                        <a href="#" class="learn-more-btn">Learn More &rarr;</a>
+                    </div>
+                    <div class="image-container">
+                        <img className="img-fluid w-100" src="../../../../assets/images/Zero-Harm.jpg" alt="KBR team" />
+                    </div>
+                </div>
+                {/* team */}
 
             </section>
+            <div class="join-our-team-section">
+                <div class="container">
+                    <h1 className="txt-primary">Join Our Team</h1>
+                    <p>The people of KBR change the world every day, providing the intelligence to solve any challenge. If you're up to the task, we want you on our team.</p>
+                    <a href="#" class="search-jobs-btn">SEARCH JOB OPENINGS</a>
+                </div>
+            </div>
+
+
         </>
     );
 }

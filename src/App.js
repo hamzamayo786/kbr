@@ -26,14 +26,10 @@ function App() {
         <Route path='suitable-tec' element={<SuitableTec />} />
         <Route path='Careers' element={<Jobs />} />
         <Route path='who-we-are' element={<AboutUs />} />
-<<<<<<< HEAD
         <Route path='insights$news' element={<Blog />}>
           <Route path='' element={<Navigate to='BlogDetail' />} />
           <Route path='BlogDetail' element={BlogDetail} />
         </Route>
-=======
-        <Route path='insights&news' element={<insights&news />} />
->>>>>>> 4786af68d0d3f5b239ccaaf94e743880db50239f
       </Routes>
       <Footer />
     </>

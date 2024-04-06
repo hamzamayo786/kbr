@@ -1,100 +1,181 @@
-
-
-  /* YourComponent.css */
+/* YourComponent.css */
 .hero__about-video {
-    position: relative;
-    width: 100%; /* Set the width you prefer */
-    height: 300px;
+  position: relative;
+  width: 100%;
+  /* Set the width you prefer */
+  height: 300px;
+}
+
+.custom-thumbnail {
+  background-image: url('../../../../public/assets/images/1728871999-7728c13f0c1b9512598a883ee1ec048d46233cef8c8e7644277ec574b1371b6f-d.avif');
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  top: 0;
+  z-index: 2;
+}
+
+.play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: none;
+  background: url('../../../../public/assets/images/play-button.png') no-repeat center center;
+  width: 64px;
+  height: 64px;
+  background-size: contain;
+  cursor: pointer;
+  z-index: 3;
+}
+
+.youtube-iframe {
+  width: 100%;
+  height: inherit;
+  /* Set the height you prefer */
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+
+/*  */
+.zero-harm-section,
+.community-section {
+  display: flex;
+  align-items: center;
+  position: relative;
+  /* Relative position for positioning the blue section absolutely */
+}
+
+.content {
+  position: absolute;
+  /* Absolute position to place it over the image */
+
+  left: 50px;
+  z-index: 2;
+  /* Higher z-index to ensure it appears above the image */
+  width: 40%;
+  /* Adjust width accordingly */
+  padding: 20px;
+  background-color: #02457A;
+  /* Dark blue background, adjust as needed */
+  color: #fff;
+  /* White text color */
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+  /* Optional: add shadow for better separation */
+}
+
+.community-content {
+  position: absolute;
+  /* Absolute position to place it over the image */
+
+  right: 50px;
+  z-index: 2;
+  /* Higher z-index to ensure it appears above the image */
+  width: 40%;
+  /* Adjust width accordingly */
+  padding: 20px;
+  background-color: #02457A;
+  /* Dark blue background, adjust as needed */
+  color: #fff;
+  /* White text color */
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.image-container {
+  flex-grow: 1;
+  /* Take up the remaining space */
+  padding: 50px 0px;
+  /* Push down to compensate for the overlaying content */
+}
+
+
+.learn-more-btn {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  /* White text color */
+  background-color: #0170AF;
+  /* Lighter blue background, adjust as needed */
+  padding: 10px 15px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+  .zero-harm-section {
+    flex-direction: column;
   }
-  
-  .custom-thumbnail {
-    background-image: url('../../../../public/assets/images/1728871999-7728c13f0c1b9512598a883ee1ec048d46233cef8c8e7644277ec574b1371b6f-d.avif');
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    top: 0;
-    z-index: 2;
+
+  .content {
+    position: static;
+    /* Remove absolute positioning on smaller screens */
+    width: auto;
+    box-shadow: none;
   }
-  
-  .play-button {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border: none;
-    background: url('../../../../public/assets/images/play-button.png') no-repeat center center;
-    width: 64px;
-    height: 64px;
-    background-size: contain;
-    cursor: pointer;
-    z-index: 3;
+
+  .image-container {
+    padding-top: 0;
   }
-  
-  .youtube-iframe {
-    width: 100%;
-    height: inherit; /* Set the height you prefer */
-    position: absolute;
-    top: 0;
-    z-index: 1;
+}
+
+.join-our-team-section {
+  background-color: #003366;
+  /* Adjust the color to match your design */
+  color: #ffffff;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.container {
+  max-width: 1200px;
+  /* Adjust as needed */
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.join-our-team-section h1 {
+  font-size: 2.5rem;
+  /* Adjust font size as needed */
+  margin-bottom: 20px;
+}
+
+.join-our-team-section p {
+  font-size: 1.25rem;
+  /* Adjust font size as needed */
+  margin-bottom: 30px;
+}
+
+.search-jobs-btn {
+  background-color: #006699;
+  /* Adjust button color as needed */
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px 25px;
+  border-radius: 5px;
+  /* Rounded corners for the button */
+  font-size: 1rem;
+  /* Adjust button text size as needed */
+  transition: background-color 0.3s ease;
+  /* Smooth transition for hover effect */
+}
+
+.search-jobs-btn:hover {
+  background-color: #004466;
+  /* Slightly darker shade on hover, adjust as needed */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .join-our-team-section h1 {
+    font-size: 2rem;
+    /* Smaller font size on mobile */
   }
-  
-  /*  */
-  .executive-leadership-section {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    background: #0e4f88; /* Replace with the actual color or gradient */
-    padding: 20px;
+
+  .join-our-team-section p {
+    font-size: 1rem;
+    /* Smaller font size on mobile */
   }
-  
-  .executive-portraits {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px;
-  }
-  
-  .portrait img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-    border: 3px solid #ffffff; /* Adjust based on your preference */
-    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%); /* Creates a hexagon shape */
-  }
-  
-  .executive-info {
-    max-width: 300px; /* Adjust based on your preference */
-  }
-  
-  .executive-info h2 {
-    color: #ffffff;
-    margin-bottom: 0.5em;
-  }
-  
-  .executive-info p {
-    color: #ffffff;
-    margin-bottom: 1em;
-  }
-  
-  .executive-link {
-    color: #ffffff;
-    text-decoration: none;
-    background: #022f5b; /* Adjust based on your preference */
-    padding: 10px 15px;
-    border-radius: 5px;
-  }
-  
-  /* Responsive adjustments */
-  @media (max-width: 768px) {
-    .executive-leadership-section {
-      flex-direction: column;
-      text-align: center;
-    }
-  
-    .executive-info {
-      margin-top: 20px;
-    }
-  }
-  
+}

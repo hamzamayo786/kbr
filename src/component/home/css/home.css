@@ -34,7 +34,7 @@ h1{
 
 /* bannner2 */
 .Banner2{
-    background-image: url('../../../assets/img/job-tec.webp');
+    background-image: url('../../../../public/assets/images/job-tec.webp');
     height: 80vh;
     overflow: hidden;
 

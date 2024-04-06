@@ -12,6 +12,7 @@ import WhatWeDo from './component/what-we-do/what-we-do';
 import SuitableTec from './component/what-we-do/suitable-tec';
 import AboutUs from './component/aboutus/aboutUs';
 import Jobs from './component/jobs-components/jobs-page';
+import Blog from './component/Blog/blog';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Route path='suitable-tec' element={<SuitableTec />} />
         <Route path='Careers' element={<Jobs />} />
         <Route path='who-we-are' element={<AboutUs />} />
+        <Route path='blog' element={<Blog />} />
       </Routes>
       <Footer />
     </>

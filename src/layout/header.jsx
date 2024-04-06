@@ -8,7 +8,7 @@ const Header = () => {
 
             {/* <div class="preloader" id="preloader"></div> */}
             {/* <!--body-begins---> */}
-            <div id="page" class="page-wrapper header-sticky position-fixed header-v1 hide-topbar-mobile header-sticky z-3 w-100 top-0">
+            <div id="page" class="page-wrapper header-sticky position-fixed header-v1 hide-topbar-mobile header-sticky  w-100 top-0">
                 
                 <nav class="navbar navbar-expand-lg navbar-light bg-light">
                     <div class="container">
@@ -32,7 +32,7 @@ const Header = () => {
                                     <a class="nav-link" href="Careers">Careers</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#!">Contact</a>
+                                    <a class="nav-link" href="blog">Blog</a>
                                 </li>
                             </ul>
 

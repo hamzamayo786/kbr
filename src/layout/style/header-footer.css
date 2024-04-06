@@ -124,3 +124,6 @@ a {
 .footer{
     background-color: #0B5184 !important;
 }
+#page{
+  z-index: 99 !important;
+}

@@ -224,7 +224,7 @@ const Detail = () => {
             </section>
             {/* Our Passion */}
 
-            {/* OInsights & News */}
+            {/* Insights & News */}
             <section className=" Insights-News container mt-5 mb-5">
                 <div className=" text-center">
                     <h1 className=" mb-5 ">Latest Insights & News</h1>
@@ -241,7 +241,7 @@ const Detail = () => {
                                     <h4 class="card-title">Analyzing the Psychological Impact of the First Mars Habitat Simulation</h4>
                                 </div>
                                 <div class="card-icons col-md-4 text-end ">
-                                    <a href="#" class="btn  text-white"> <i class="fa-solid fa-arrow-right"></i> <br /> Learn More </a>
+                                    <a href="insights$news" class="btn  text-white"> <i class="fa-solid fa-arrow-right"></i> <br /> Learn More </a>
                                     <a href="#" class="btn  text-white"> <i class="fa-regular fa-bookmark"></i> <br /> Save </a>
                                 </div>
 
@@ -262,7 +262,7 @@ const Detail = () => {
                                     <h4 class="card-title">Analyzing the Psychological Impact of the First Mars Habitat Simulation</h4>
                                 </div>
                                 <div class="card-icons col-md-4 text-end ">
-                                    <a href="#" class="btn  text-white"> <i class="fa-solid fa-arrow-right"></i> <br /> Learn More </a>
+                                    <a href="insights$news" class="btn  text-white"> <i class="fa-solid fa-arrow-right"></i> <br /> Learn More </a>
                                     <a href="#" class="btn  text-white"> <i class="fa-regular fa-bookmark"></i> <br /> Save </a>
                                 </div>
 
@@ -282,7 +282,7 @@ const Detail = () => {
                                     <h4 class="card-title">Analyzing the Psychological Impact of the First Mars Habitat Simulation</h4>
                                 </div>
                                 <div class="card-icons col-md-4 text-end ">
-                                    <a href="#" class="btn  text-white"> <i class="fa-solid fa-arrow-right"></i> <br /> Learn More </a>
+                                    <a href="insights$news" class="btn  text-white"> <i class="fa-solid fa-arrow-right"></i> <br /> Learn More </a>
                                     <a href="#" class="btn  text-white"> <i class="fa-regular fa-bookmark"></i> <br /> Save </a>
                                 </div>
 
@@ -303,7 +303,7 @@ const Detail = () => {
                                     <h4 class="card-title">Analyzing the Psychological Impact of the First Mars Habitat Simulation</h4>
                                 </div>
                                 <div class="card-icons col-md-4 text-end ">
-                                    <a href="#" class="btn  text-white"> <i class="fa-solid fa-arrow-right"></i> <br /> Learn More </a>
+                                    <a href="insights$news" class="btn  text-white"> <i class="fa-solid fa-arrow-right"></i> <br /> Learn More </a>
                                     <a href="#" class="btn  text-white"> <i class="fa-regular fa-bookmark"></i> <br /> Save </a>
                                 </div>
 
@@ -312,7 +312,7 @@ const Detail = () => {
                     </div>
                     {/* card */}
                     <div class="card-icons col-12 text-center ">
-                        <a href="#!" class="btn  txt-primary mt-5"> VIEW ALL NEWS & INSIGHTS </a>
+                        <a href="insights$news" class="btn  txt-primary mt-5"> VIEW ALL NEWS & INSIGHTS </a>
 
                     </div>
                 </div>

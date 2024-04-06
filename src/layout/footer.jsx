@@ -110,8 +110,8 @@ const Footer = () => {
          
 
             <div className="text-center p-4" style={{ backgroundColor: "rgba(0, 0, 0, 0.05)" }}>
-                © 2021 Copyright:
-                <a className="text-reset fw-bold" href="https://mdbootstrap.com/">KBR</a> <br/>
+                © 2024 Copyright:
+                <a className="text-reset fw-bold" href="#!">KBR</a> <br/>
                 <a className="text-reset fw-bold" href="">Designed by <a href="https://bmymarketer.com/" target="_blank">bmymarketer</a></a>
             </div>
             

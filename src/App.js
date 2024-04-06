@@ -25,8 +25,15 @@ function App() {
         <Route path='careers' element={<Jobs />} />
         <Route path='who-we-are' element={<AboutUs />} />
         <Route path='insights$news' element={<Blog />}>
+<<<<<<< HEAD
           <Route path='' element={<Navigate to='BlogDetail' />} />
-          <Route path='BlogDetail' element={<BlogDetail />} />
+          <Route path='BlogDetail' element={BlogDetail} />          
+        </Route>
+        <Route path='investor' element={<Investor/>} />
+
+=======
+          <Route path='' element={<Navigate to='blogDetail' />} />
+          <Route path='blogDetail' element={<BlogDetail />} />
         </Route>
         <Route path='' element={<ContactUs />} />
         <Route path='investor' element={<Investor />} />

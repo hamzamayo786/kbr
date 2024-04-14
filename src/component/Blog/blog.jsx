@@ -41,7 +41,7 @@ const Blog = (props) => {
                                     <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
 
                                     <div class="card-body  w-100 d-flex justify-content-between ">
-                                        <a href="suitable-tec" class="btn  txt-primary"> <i class="fa-solid fa-arrow-right"></i> <br /> Learn More </a>
+                                        <a href="BlogDetail" class="btn  txt-primary"> <i class="fa-solid fa-arrow-right"></i> <br /> Learn More </a>
                                         <a href="#" class="btn  txt-primary"> <i class="fa-regular fa-bookmark"></i> <br /> Save </a>
                                     </div>
                                 </div>
@@ -58,7 +58,7 @@ const Blog = (props) => {
                                     <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
 
                                     <div class="card-body  w-100 d-flex justify-content-between ">
-                                        <a href="suitable-tec" class="btn  txt-primary"> <i class="fa-solid fa-arrow-right"></i> <br /> Learn More </a>
+                                        <a href="BlogDetail" class="btn  txt-primary"> <i class="fa-solid fa-arrow-right"></i> <br /> Learn More </a>
                                         <a href="#" class="btn  txt-primary"> <i class="fa-regular fa-bookmark"></i> <br /> Save </a>
                                     </div>
                                 </div>
@@ -75,7 +75,7 @@ const Blog = (props) => {
                                     <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
 
                                     <div class="card-body  w-100 d-flex justify-content-between ">
-                                        <a href="suitable-tec" class="btn  txt-primary"> <i class="fa-solid fa-arrow-right"></i> <br /> Learn More </a>
+                                        <a href="BlogDetail" class="btn  txt-primary"> <i class="fa-solid fa-arrow-right"></i> <br /> Learn More </a>
                                         <a href="#" class="btn  txt-primary"> <i class="fa-regular fa-bookmark"></i> <br /> Save </a>
                                     </div>
                                 </div>
@@ -92,7 +92,7 @@ const Blog = (props) => {
                                     <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
 
                                     <div class="card-body  w-100 d-flex justify-content-between ">
-                                        <a href="suitable-tec" class="btn  txt-primary"> <i class="fa-solid fa-arrow-right"></i> <br /> Learn More </a>
+                                        <a href="BlogDetail" class="btn  txt-primary"> <i class="fa-solid fa-arrow-right"></i> <br /> Learn More </a>
                                         <a href="#" class="btn  txt-primary"> <i class="fa-regular fa-bookmark"></i> <br /> Save </a>
                                     </div>
                                 </div>
@@ -109,7 +109,7 @@ const Blog = (props) => {
                                     <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
 
                                     <div class="card-body  w-100 d-flex justify-content-between ">
-                                        <a href="suitable-tec" class="btn  txt-primary"> <i class="fa-solid fa-arrow-right"></i> <br /> Learn More </a>
+                                        <a href="BlogDetail" class="btn  txt-primary"> <i class="fa-solid fa-arrow-right"></i> <br /> Learn More </a>
                                         <a href="#" class="btn  txt-primary"> <i class="fa-regular fa-bookmark"></i> <br /> Save </a>
                                     </div>
                                 </div>

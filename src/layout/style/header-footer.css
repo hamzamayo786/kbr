@@ -137,3 +137,39 @@ a {
 #page{
   z-index: 99 !important;
 }
+
+/* sidebar  */
+.offcanvas-btn{
+  position: fixed;
+  right: 0;
+  top: 0;
+  height: 100vh !important;
+  background-color: #0B5184  ;
+} 
+.offcanvas-btn button{
+  background-color: #0B5184;
+  border: none;
+}
+/* custom.css */
+/* Additional custom styles for the off-canvas sidebar */
+.offcanvas-header {
+  background-color: #0B5184 !important; /* Dark blue background */
+  color: #fff; /* White text */
+}
+
+.offcanvas-body , .accordion-header ,.accordion-body , .accordion-button{
+  background-color: #007bff; /* Lighter blue background */
+  border: none;
+}
+
+.nav-link , .accordion-header ,.accordion-body, .accordion-button {
+  color: #fff; /* White text for links */
+}
+
+.nav-link:hover {
+  background-color: #0056b3; /* Dark blue background on hover */
+}
+
+.btn-close {
+  filter: invert(1); /* Make the close button white */
+}

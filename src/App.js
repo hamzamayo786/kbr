@@ -13,6 +13,8 @@ import Blog from './component/Blog/blog';
 import BlogDetail from './component/Blog/blog-detail';
 import ContactUs from './component/Contact Us/contact';
 import Investor from './component/investor/investor';
+import PrivacyPolicy from './component/Policy/privacy-policy';
+import Term_Condition from './component/Policy/term&condition';
 
 function App() {
   return (
@@ -24,12 +26,14 @@ function App() {
         <Route path='suitable-tec' element={<SuitableTec />} />
         <Route path='careers' element={<Jobs />} />
         <Route path='who-we-are' element={<AboutUs />} />
-        <Route path='insights$news' element={<Blog />}>
-          <Route path='' element={<Navigate to='BlogDetail' />} />
-          <Route path='BlogDetail' element={<BlogDetail/>} />          
+        <Route path='insights_news' element={<Blog />}>
+          
         </Route>
-        <Route path='investor' element={<Investor/>} />
-        <Route path='' element={<ContactUs />} />
+        <Route path='BlogDetail' element={<BlogDetail />} />
+        <Route path='investor' element={<Investor />} />
+        <Route path='contact-us' element={<ContactUs />} />
+        <Route path='privacy-policy' element={<PrivacyPolicy />} />
+        <Route path='terms&conditions' element={<Term_Condition />} />
 
       </Routes>
       <Footer />

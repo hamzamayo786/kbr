@@ -7,7 +7,6 @@ const AboutUs = () => {
     return (
         <>
             <Banner2 heading="WHO WE ARE" />
-
             <section className="mt-5 mb-5  container text-center">
                 <div>
                     <p className=" mb-5 display-4 txt-primary"> We Deliver®</p>

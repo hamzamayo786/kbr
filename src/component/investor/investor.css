@@ -68,8 +68,77 @@
     margin: 0;
 }
 .module-stock-header_stockQuote i{
-    color: yellow;
+    color: #FEDB0E;
 }
 .read-more i{
-    color: yellow;
+    color: #FEDB0E;
 }
+.card-body i{
+    color: #FEDB0E;
+    
+}
+
+/* events */
+
+.card{
+    margin-top: 15px !important;
+    margin-bottom: 15px !important;
+}
+  
+  .event-card .card-header h5 {
+    background-color: #00225A; /* Bootstrap primary color */
+   padding: 12px;
+   margin: 0;
+    display: inline-block;
+  }
+  .event-card .card-header {
+    border-top:2px solid #00225A ;
+    border-bottom: 0;
+    background-color: #fff !important;
+    border-radius: 0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .event-card .card-body {
+    position: relative;
+    padding-top: 1.5rem; /* Increase padding to lift the body up under the header */
+    border: none;
+    
+  }
+  
+ 
+  .date {
+    font-size: 0.875rem;
+  }
+  
+  .bi {
+    margin-right: 0.5rem;
+    font-size: 1.2rem; /* Icon size */
+    vertical-align: -0.2em;
+  }
+  
+  .card-link {
+    font-weight: bold;
+    color: #00225A !important; /* Bootstrap primary color */
+  }
+  
+  @media (max-width: 576px) {
+    .event-card {
+      max-width: 100%;
+    }
+  }
+  
+  /* video play */
+    .hero__about-video {
+    height:auto;
+}
+
+.hero__about-video iframe,
+.hero__about-video video,
+.video__area img {
+    width: 100%;
+    height: auto
+}
+  
+  /*video play  */

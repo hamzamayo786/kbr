@@ -130,6 +130,12 @@ a {
 }
 .nav-link{
     color: white;
+    font-size: 17px;
+    font-weight: 600;
+}
+.nav-link:hover{
+  color:#c40522 !important;
+  background-color: none !important;
 }
 .footer{
     background-color: #0B5184 !important;
@@ -164,10 +170,6 @@ a {
 
 .nav-link , .accordion-header ,.accordion-body, .accordion-button {
   color: #fff; /* White text for links */
-}
-
-.nav-link:hover {
-  background-color: #0056b3; /* Dark blue background on hover */
 }
 
 .btn-close {

@@ -4,23 +4,22 @@ import New_Insights from "./news&insight";
 const Detail = () => {
     return (
         <>
-        
-            <New_Insights  imgSrc="../../assets/images/job-tec.webp"  imgSrc1="../../assets/images/job-tec.webp" />
-            
+
+            <New_Insights imgSrc="../../assets/images/job-tec.webp" imgSrc1="../../assets/images/job-tec.webp" />
+
             {/* working team */}
             <section className="working-team container mt-5 mb-5">
                 <div className=" text-start mb-5">
                     <h1 className=" ">Working at KBR</h1>
                     <p>We deliver a variety of solutions worldwide, from science and technology to sustainability and engineering.</p>
                 </div>
-                {/* working team */}
-                {/* card slider */}
-                <div className="row ">
+                {/* Working Cards */}
+                   <div className="row ">
                     {/* card */}
                     <div className=" col-lg-3 col-md-6 col-sm-12 position-relative text-start mt-2 mb-2">
                         <h4 className="mb-3">Belong</h4>
-                        <div class="card " style={{ width: "17rem", height: "22rem" }}>
-                            <img class="card-img-top  overflow-hidden" src="../../assets/images/bl.jpg" alt="Card image cap" />
+                        <div class="card " style={{ width: "100%" }}>
+                            <img class="card-img-top  overflow-hidden" src="../../assets/images/Belong.jpg" alt="Card image cap" />
                             <div class="card-body position-absolute z-2 bottom-0 w-100 d-flex justify-content-between ">
                                 <a href="#" class="btn  text-white"> <i class="fa-solid fa-arrow-right"></i> <br /> Learn More </a>
                                 <a href="#" class="btn  text-white"> <i class="fa-regular fa-bookmark"></i> <br /> Save </a>
@@ -37,8 +36,8 @@ const Detail = () => {
                     {/* card */}
                     <div className=" col-lg-3 col-md-6 col-sm-12 position-relative text-start mt-2 mb-2">
                         <h4 className="mb-3">Belong</h4>
-                        <div class="card " style={{ width: "17rem", height: "22rem" }}>
-                            <img class="card-img-top overflow-hidden" src="../../assets/images/bl.jpg" alt="Card image cap" />
+                        <div class="card " style={{ width: "100%" }}>
+                            <img class="card-img-top overflow-hidden" src="../../assets/images/Benefits_V2.jpg" alt="Card image cap" />
                             <div class="card-body position-absolute z-2 bottom-0 w-100 d-flex justify-content-between ">
                                 <a href="#" class="btn  text-white"> <i class="fa-solid fa-arrow-right"></i> <br /> Learn More </a>
                                 <a href="#" class="btn  text-white"> <i class="fa-regular fa-bookmark"></i> <br /> Save </a>
@@ -53,8 +52,8 @@ const Detail = () => {
                     {/* card */}
                     <div className=" col-lg-3 col-md-6 col-sm-12 position-relative text-start mt-2 mb-2">
                         <h4 className="mb-3">Belong</h4>
-                        <div class="card " style={{ width: "17rem", height: "22rem" }}>
-                            <img class="card-img-top overflow-hidden" src="../../assets/images/bl.jpg" alt="Card image cap" />
+                        <div class="card " style={{ width: "100%" }}>
+                            <img class="card-img-top overflow-hidden" src="../../assets/images/Grow.jpg.jpg" alt="Card image cap" />
                             <div class="card-body position-absolute z-2 bottom-0 w-100 d-flex justify-content-between ">
                                 <a href="#" class="btn  text-white"> <i class="fa-solid fa-arrow-right"></i> <br /> Learn More </a>
                                 <a href="#" class="btn  text-white"> <i class="fa-regular fa-bookmark"></i> <br /> Save </a>
@@ -70,8 +69,8 @@ const Detail = () => {
                     {/* card */}
                     <div className=" col-lg-3 col-md-6 col-sm-12 position-relative text-start mt-2 mb-2">
                         <h4 className="mb-3">Belong</h4>
-                        <div class="card " style={{ width: "17rem", height: "22rem" }}>
-                            <img class="card-img-top overflow-hidden" src="../../assets/images/bl.jpg" alt="Card image cap" />
+                        <div class="card " style={{ width: "100%" }}>
+                            <img class="card-img-top overflow-hidden" src="../../assets/images/Connect_V2.jpg.jpg" alt="Card image cap" />
                             <div class="card-body position-absolute z-2 bottom-0 w-100 d-flex justify-content-between ">
                                 <a href="#" class="btn  text-white"> <i class="fa-solid fa-arrow-right"></i> <br /> Learn More </a>
                                 <a href="#" class="btn  text-white"> <i class="fa-regular fa-bookmark"></i> <br /> Save </a>
@@ -83,17 +82,18 @@ const Detail = () => {
                         </div>
                     </div>
                     {/* card */}
-                </div>
+                     </div>
+                {/* Working Cards */}
             </section>
             {/* working team */}
 
             {/* our Values */}
             <section className=" our-values container mt-5 mb-5">
-                {/* card slider */}
+                {/* Values card  */}
                 <div className="row  align-items-center ">
                     {/* card */}
                     <div className=" col-lg-3 col-md-6 col-sm-12 position-relative text-start mt-2 mb-2">
-                        <div class="card " style={{ width: "17rem", height: "22rem" }}>
+                        <div class="card " style={{ width: "100%" }}>
                             <img class="card-img-top overflow-hidden" src="../../assets/images/bl.jpg" alt="Card image cap" />
                             <div class="card-body position-absolute z-2 bottom-0 w-100 d-flex justify-content-between ">
                                 <a href="#" class="btn  text-white"> <i class="fa-solid fa-arrow-right"></i> <br /> Learn More </a>
@@ -107,7 +107,7 @@ const Detail = () => {
                     {/* card */}
                     <div className=" col-lg-3 col-md-6 col-sm-12 position-relative text-start mt-2 mb-2">
                         <div className=" col-lg-12 col-md-12 col-sm-12 position-relative text-start mt-2 mb-2">
-                            <div class="card " style={{ width: "17rem", height: "22rem" }}>
+                            <div class="card " style={{ width: "100%" }}>
                                 <img class="card-img-top overflow-hidden" src="../../assets/images/bl.jpg" alt="Card image cap" />
                                 <div class="card-body position-absolute z-2 bottom-0 w-100 d-flex justify-content-between ">
                                     <a href="#" class="btn  text-white"> <i class="fa-solid fa-arrow-right"></i> <br /> Learn More </a>
@@ -116,7 +116,7 @@ const Detail = () => {
                             </div>
                         </div>
                         <div className=" col-lg-12 col-md-12 col-sm-12 position-relative text-start mt-2 mb-2">
-                            <div class="card " style={{ width: "17rem", height: "22rem" }}>
+                            <div class="card " style={{ width: "100%" }}>
                                 <img class="card-img-top overflow-hidden" src="../../assets/images/bl.jpg" alt="Card image cap" />
                                 <div class="card-body position-absolute z-2 bottom-0 w-100 d-flex justify-content-between ">
                                     <a href="#" class="btn  text-white"> <i class="fa-solid fa-arrow-right"></i> <br /> Learn More </a>
@@ -132,7 +132,7 @@ const Detail = () => {
                             <h1 className=" ">Our Values</h1>
                             <p>We deliver a variety of solutions worldwide, from science and technology to sustainability and engineering.</p>
                         </div>
-                        <div class="card " style={{ width: "17rem", height: "22rem" }}>
+                        <div class="card " style={{ width: "100%" }}>
                             <img class="card-img-top overflow-hidden" src="../../assets/images/bl.jpg" alt="Card image cap" />
                             <div class="card-body position-absolute z-2 bottom-0 w-100 d-flex justify-content-between ">
                                 <a href="#" class="btn  text-white"> <i class="fa-solid fa-arrow-right"></i> <br /> Learn More </a>
@@ -147,7 +147,7 @@ const Detail = () => {
                     {/* card */}
                     <div className=" col-lg-3 col-md-6 col-sm-12 position-relative text-start mt-2 mb-2">
 
-                        <div class="card " style={{ width: "17rem", height: "22rem" }}>
+                        <div class="card " style={{ width: "100%" }}>
                             <img class="card-img-top overflow-hidden" src="../../assets/images/bl.jpg" alt="Card image cap" />
                             <div class="card-body position-absolute z-2 bottom-0 w-100 d-flex justify-content-between ">
                                 <a href="#" class="btn  text-white"> <i class="fa-solid fa-arrow-right"></i> <br /> Learn More </a>
@@ -172,8 +172,8 @@ const Detail = () => {
                     {/* card */}
                     <div className=" col-lg-3 col-md-6 col-sm-12 position-relative text-start mt-2 mb-2">
                         <h4 className="mb-3">Belong</h4>
-                        <div class="card " style={{ width: "17rem", height: "22rem" }}>
-                            <img class="card-img-top  overflow-hidden" src="../../assets/images/bl.jpg" alt="Card image cap" />
+                        <div class="card " style={{ width: "100%" }}>
+                            <img class="card-img-top  overflow-hidden" src="../../assets/images/Homepage-Community.jpg" alt="Card image cap" />
                             <div class="card-body position-absolute z-2 bottom-0 w-100 d-flex justify-content-between ">
                                 <a href="#" class="btn  text-white"> <i class="fa-solid fa-arrow-right"></i> <br /> Learn More </a>
                                 <a href="#" class="btn  text-white"> <i class="fa-regular fa-bookmark"></i> <br /> Save </a>
@@ -186,8 +186,8 @@ const Detail = () => {
                     {/* card */}
                     <div className=" col-lg-3 col-md-6 col-sm-12 position-relative text-start mt-2 mb-2">
                         <h4 className="mb-3">Belong</h4>
-                        <div class="card " style={{ width: "17rem", height: "22rem" }}>
-                            <img class="card-img-top overflow-hidden" src="../../assets/images/bl.jpg" alt="Card image cap" />
+                        <div class="card " style={{ width: "100%" }}>
+                            <img class="card-img-top overflow-hidden" src="../../assets/images/Homepage-Culture.jpg" alt="Card image cap" />
                             <div class="card-body position-absolute z-2 bottom-0 w-100 d-flex justify-content-between ">
                                 <a href="#" class="btn  text-white"> <i class="fa-solid fa-arrow-right"></i> <br /> Learn More </a>
                                 <a href="#" class="btn  text-white"> <i class="fa-regular fa-bookmark"></i> <br /> Save </a>
@@ -198,8 +198,8 @@ const Detail = () => {
                     {/* card */}
                     <div className=" col-lg-3 col-md-6 col-sm-12 position-relative text-start mt-2 mb-2">
                         <h4 className="mb-3">Belong</h4>
-                        <div class="card " style={{ width: "17rem", height: "22rem" }}>
-                            <img class="card-img-top overflow-hidden" src="../../assets/images/bl.jpg" alt="Card image cap" />
+                        <div class="card " style={{ width: "100%" }}>
+                            <img class="card-img-top overflow-hidden" src="../../assets/images/team-passion.jpg" alt="Card image cap" />
                             <div class="card-body position-absolute z-2 bottom-0 w-100 d-flex justify-content-between ">
                                 <a href="#" class="btn  text-white"> <i class="fa-solid fa-arrow-right"></i> <br /> Learn More </a>
                                 <a href="#" class="btn  text-white"> <i class="fa-regular fa-bookmark"></i> <br /> Save </a>
@@ -211,8 +211,8 @@ const Detail = () => {
                     {/* card */}
                     <div className=" col-lg-3 col-md-6 col-sm-12 position-relative text-start mt-2 mb-2">
                         <h4 className="mb-3">Belong</h4>
-                        <div class="card " style={{ width: "17rem", height: "22rem" }}>
-                            <img class="card-img-top overflow-hidden" src="../../assets/images/bl.jpg" alt="Card image cap" />
+                        <div class="card " style={{ width: "100%" }}>
+                            <img class="card-img-top overflow-hidden" src="../../assets/images/Sustainability.jpg" alt="Card image cap" />
                             <div class="card-body position-absolute z-2 bottom-0 w-100 d-flex justify-content-between ">
                                 <a href="#" class="btn  text-white"> <i class="fa-solid fa-arrow-right"></i> <br /> Learn More </a>
                                 <a href="#" class="btn  text-white"> <i class="fa-regular fa-bookmark"></i> <br /> Save </a>

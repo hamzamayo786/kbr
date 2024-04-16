@@ -1,9 +1,11 @@
 import React from 'react';
 import './jobs.css';
 import Community from './community-section';
+import { Link, useParams } from "react-router-dom";
 
 
 function Jobs() {
+    const { id } = useParams();
   return (
     <>
      {/* ------------------------- banner section ------------------- */}
@@ -157,7 +159,7 @@ function Jobs() {
                 <p>
                 KBR brings together the best and brightest to deliver science, technology and engineering solutions that help governments and companies around the world accomplish their most critical missions and objectives.
                 In everything we do, we are guided by our <span>ONE
-                KBR Values:</span> <a href="#">Learn More</a>
+                KBR Values:</span> <Link href="#">Learn More</Link>
                 </p>
 
             </div>
@@ -167,11 +169,12 @@ function Jobs() {
                 <p>
                     Fraud has infiltrated the job placement market via the internet, email and direct phone contact. Attempts have included unauthorized use of KBR’s name and logo to solicit potential job seekers or to extend false job offers. Bad actors may mix in fake job advertisements with legitimate postings. These ads can include contact instructions and require job seekers to send sensitive personal information or money to pay for visa applications, processing fees, etc., in exchange for consideration for a high-paying position.
                     KBR will never ask for any sort of advance payment as part of the recruiting/hiring process. Candidate profiles are carefully managed to protect personal information.  If you experience fraud in a job offer, we encourage you to contact our KBR ethics hotline (fhoukbrcode@kbr.com) and report it to the Federal Trade Commission by clicking: 
-                    <a href="#">Here</a>
+                    <Link href="#">Here</Link>
                 </p>
 
             </div>
         </div>
+        {/* right jobs */}
         <div className='right-jobs'>
             <h1>Showing Search results for "process"</h1>
             <div className='jobs-items'>
@@ -212,7 +215,7 @@ function Jobs() {
                 <div className='jobs-items-right'>
                     <div>
                         <i class="fa fa-star" aria-hidden="true"></i>
-                        <a href='#' className='job-apply-btn'>Apply Now</a>
+                        <Link to="/jointalentcommunity/{id}" className='job-apply-btn'>Apply Now</Link>
                     </div>
 
                 </div>
@@ -256,7 +259,7 @@ function Jobs() {
                 <div className='jobs-items-right'>
                     <div>
                         <i class="fa fa-star" aria-hidden="true"></i>
-                        <a href='#' className='job-apply-btn'>Apply Now</a>
+                        <Link to="/jointalentcommunity/{id}" className='job-apply-btn'>Apply Now</Link>
                     </div>
 
                 </div>
@@ -300,7 +303,7 @@ function Jobs() {
                 <div className='jobs-items-right'>
                     <div>
                         <i class="fa fa-star" aria-hidden="true"></i>
-                        <a href='#' className='job-apply-btn'>Apply Now</a>
+                        <Link to="/jointalentcommunity/{id}" className='job-apply-btn'>Apply Now</Link>
                     </div>
 
                 </div>
@@ -344,7 +347,7 @@ function Jobs() {
                 <div className='jobs-items-right'>
                     <div>
                         <i class="fa fa-star" aria-hidden="true"></i>
-                        <a href='#' className='job-apply-btn'>Apply Now</a>
+                        <Link to="/jointalentcommunity/{id}" className='job-apply-btn'>Apply Now</Link>
                     </div>
 
                 </div>
@@ -388,7 +391,7 @@ function Jobs() {
                 <div className='jobs-items-right'>
                     <div>
                         <i class="fa fa-star" aria-hidden="true"></i>
-                        <a href='#' className='job-apply-btn'>Apply Now</a>
+                        <Link to="/jointalentcommunity/{id}" className='job-apply-btn'>Apply Now</Link>
                     </div>
 
                 </div>
@@ -432,7 +435,7 @@ function Jobs() {
                 <div className='jobs-items-right'>
                     <div>
                         <i class="fa fa-star" aria-hidden="true"></i>
-                        <a href='#' className='job-apply-btn'>Apply Now</a>
+                        <Link to="/jointalentcommunity/{id}" className='job-apply-btn'>Apply Now</Link>
                     </div>
 
                 </div>
@@ -476,7 +479,7 @@ function Jobs() {
                 <div className='jobs-items-right'>
                     <div>
                         <i class="fa fa-star" aria-hidden="true"></i>
-                        <a href='#' className='job-apply-btn'>Apply Now</a>
+                        <Link to="/jointalentcommunity/{id}" className='job-apply-btn'>Apply Now</Link>
                     </div>
 
                 </div>

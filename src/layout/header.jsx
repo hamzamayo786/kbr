@@ -72,12 +72,7 @@ const Header = () => {
                                     <button class="btn btn-primary rounded-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#sidebar" aria-controls="sidebar">
                                         <p href="" className=" fs-4 ">&#x2630;</p>
                                     </button>
-                                    <button class="btn btn-primary rounded-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#sidebar" aria-controls="sidebar">
-                                        <p href="" className=" fs-4 ">&#x2630;</p>
-                                    </button>
-                                    <button class="btn btn-primary rounded-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#sidebar" aria-controls="sidebar">
-                                        <p href="" className=" fs-4 ">&#x2630;</p>
-                                    </button>
+                                    
                                 </div>
                                 {/* <!-- Button trigger for off-canvas sidebar --> */}
 
@@ -96,11 +91,11 @@ const Header = () => {
                     <div class="offcanvas-body">
                         {/* <!-- Add your navigation links here --> */}
                         <ul class="nav flex-column">
-                            <li class="nav-item mb-2"><a href="#" class="nav-link active" aria-current="page">Who We Are</a></li>
-                            <li class="nav-item mb-2"><a href="#" class="nav-link">What We Do</a></li>
-                            <li class="nav-item mb-2"><a href="#" class="nav-link">Careers</a></li>
-                            <li class="nav-item mb-2"><a href="#" class="nav-link">Insights & News</a></li>
-                            <li class="nav-item mb-2"><a href="#" class="nav-link">Investor Relations</a></li>
+                            <li class="nav-item mb-2"><a href="who-we-are" class="nav-link active" aria-current="page">Who We Are</a></li>
+                            <li class="nav-item mb-2"><a href="what-we-do" class="nav-link">What We Do</a></li>
+                            <li class="nav-item mb-2"><a href="Careers" class="nav-link">Careers</a></li>
+                            <li class="nav-item mb-2"><a href="insights_news" class="nav-link">Insights & News</a></li>
+                            <li class="nav-item mb-2"><a href="investor" class="nav-link">Investor Relations</a></li>
 
                             <li class="nav-item mb-2"> <div class="accordion" id="accordionExample">
 

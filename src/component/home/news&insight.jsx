@@ -17,7 +17,7 @@ const New_Insights = (props) => {
 
                             <div class="card-body position-absolute z-2 bottom-0 w-100 d-flex justify-content-between ">
                                 <Link to="suitable-tec" class="btn  text-white"> <i class="fa-solid fa-arrow-right"></i> <br /> Learn More </Link>
-                                <Link to="#" class="btn  text-white"> <i class="fa-regular fa-bookmark"></i> <br /> Save </Link>
+                                <Link to="suitable-tec" class="btn  text-white"> <i class="fa-regular fa-bookmark"></i> <br /> Save </Link>
                             </div>
                         </div>
                     </div>
@@ -31,7 +31,7 @@ const New_Insights = (props) => {
                             <img class="card-img-top overflow-hidden" src={props.imgSrc1}  alt="Card image cap" />
                             <div class="card-body position-absolute z-2 bottom-0 w-100 d-flex justify-content-between ">
                                 <Link to="suitable-tec" class="btn  text-white"> <i class="fa-solid fa-arrow-right"></i> <br /> Learn More </Link>
-                                <Link to="#" class="btn  text-white"> <i class="fa-regular fa-bookmark"></i> <br /> Save </Link>
+                                <Link to="suitable-tec" class="btn  text-white"> <i class="fa-regular fa-bookmark"></i> <br /> Save </Link>
                             </div>
 
                         </div>

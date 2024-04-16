@@ -15,26 +15,28 @@ import ContactUs from './component/Contact Us/contact';
 import Investor from './component/investor/investor';
 import PrivacyPolicy from './component/Policy/privacy-policy';
 import Term_Condition from './component/Policy/term&condition';
+import JoinTalentCommunity from './component/jobs-components/applyform';
 
 function App() {
   return (
     <>
       <Header />
-      <Routes>
-        <Route path='' element={<Home />} />
-        <Route path='what-we-do' element={<WhatWeDo />} />
-        <Route path='suitable-tec' element={<SuitableTec />} />
-        <Route path='careers' element={<Jobs />} />
-        <Route path='who-we-are' element={<AboutUs />} />
-        <Route path='/insights_news' element={<Blog />}>
-        </Route>
-          <Route path='blog-detail' element={<BlogDetail />} />
-        <Route path='investor' element={<Investor />} />
-        <Route path='contact-us' element={<ContactUs />} />
-        <Route path='privacy-policy' element={<PrivacyPolicy />} />
-        <Route path='terms&conditions' element={<Term_Condition />} />
+        <Routes>
 
-      </Routes>
+          <Route path='' element={<Home />} />
+          <Route path='what-we-do' element={<WhatWeDo />} />
+          <Route path='suitable-tec' element={<SuitableTec />} />
+          <Route path='careers' element={<Jobs />} />
+          <Route path='who-we-are' element={<AboutUs />} />
+          <Route path='/insights_news' element={<Blog />}>
+          </Route>
+          <Route path='blog-detail' element={<BlogDetail />} />
+          <Route path='investor' element={<Investor />} />
+          <Route path='contact-us' element={<ContactUs />} />
+          <Route path='privacy-policy' element={<PrivacyPolicy />} />
+          <Route path='terms&conditions' element={<Term_Condition />} />
+          <Route path='/jointalentcommunity/:id' element={<JoinTalentCommunity/>}/>
+        </Routes>
       <Footer />
     </>
   );

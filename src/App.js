@@ -26,10 +26,9 @@ function App() {
         <Route path='suitable-tec' element={<SuitableTec />} />
         <Route path='careers' element={<Jobs />} />
         <Route path='who-we-are' element={<AboutUs />} />
-        <Route path='insights_news' element={<Blog />}>
-          
+        <Route path='/insights_news' element={<Blog />}>
         </Route>
-        <Route path='BlogDetail' element={<BlogDetail />} />
+          <Route path='blog-detail' element={<BlogDetail />} />
         <Route path='investor' element={<Investor />} />
         <Route path='contact-us' element={<ContactUs />} />
         <Route path='privacy-policy' element={<PrivacyPolicy />} />

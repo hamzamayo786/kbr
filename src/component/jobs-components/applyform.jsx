@@ -38,8 +38,8 @@ function JoinTalentCommunity() {
 
     return (
 
-        <div className="container mt-5">
-            <h2>Job Application</h2>
+        <div className="container mt-5 pt-5">
+            <h2 className='mt-5 pt-5 txt-primary text-center'>Job Application</h2>
             <form onSubmit={handleSubmit} className='apply-form'>
 
                 <div className="mb-4 mt-4">

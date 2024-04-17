@@ -134,9 +134,17 @@ a {
     font-weight: 600;
 }
 .nav-link:hover{
-  color:#c40522 !important;
+  color:#FEDB0E !important;
   background-color: none !important;
 }
+.nav-link:active{
+  color:#FEDB0E !important;
+}
+.nav-link:focus{
+  color:#FEDB0E !important;
+}
+
+
 .footer{
     background-color: #0B5184 !important;
 }
@@ -175,3 +183,5 @@ a {
 .btn-close {
   filter: invert(1); /* Make the close button white */
 }
+
+

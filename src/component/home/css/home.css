@@ -48,3 +48,28 @@ h1{
     backdrop-filter: blur(0.3125rem);
     
 }
+.card-overlay{
+    background-color: #0005095e;
+    height: 50vh;
+
+}
+
+.card{
+    transition: .4s all ease;
+  }
+  
+  .card:hover{
+    transform: translateY(-10px) !important;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+
+  .fa-arrow-right,.fa-bookmark{
+    transition: .3s all ease;
+  }
+  
+  .card a:hover .fa-arrow-right{
+    transform: translateY(-10px);
+  }
+  .card a:hover .fa-bookmark{
+    transform: translateY(-10px);
+  }

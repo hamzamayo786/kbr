@@ -25,7 +25,7 @@ const New_Insights = (props) => {
                         <div class="card " style={{ width: "100%" }}>
                             <div className="card--image-tile__blur">
                                 <div class="card-body ">
-                                    <h2 className="text-white display-6">Sustainable Technology Solutions</h2>
+                                    <h2 className="text-white display-6">Government Solutions</h2>
                                 </div>
                             </div>
                             <img class="card-img-top overflow-hidden" src={props.imgSrc1}  alt="Card image cap" />

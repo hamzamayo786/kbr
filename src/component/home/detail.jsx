@@ -14,7 +14,7 @@ const Detail = () => {
                     <p>We deliver a variety of solutions worldwide, from science and technology to sustainability and engineering.</p>
                 </div>
                 {/* Working Cards */}
-                   <div className="row ">
+                <div className="row ">
                     {/* card */}
                     <div className=" col-lg-3 col-md-6 col-sm-12 position-relative text-start mt-2 mb-2">
                         <h4 className="mb-3">Belong</h4>
@@ -82,7 +82,7 @@ const Detail = () => {
                         </div>
                     </div>
                     {/* card */}
-                     </div>
+                </div>
                 {/* Working Cards */}
             </section>
             {/* working team */}
@@ -93,11 +93,12 @@ const Detail = () => {
                 <div className="row  align-items-center ">
                     {/* card */}
                     <div className=" col-lg-3 col-md-6 col-sm-12 position-relative text-start mt-2 mb-2">
-                        <div class="card " style={{ width: "100%" }}>
-                            <img class="card-img-top overflow-hidden" src="../../assets/images/bl.jpg" alt="Card image cap" />
-                            <div class="card-body position-absolute z-2 bottom-0 w-100 d-flex justify-content-between ">
-                                <a href="#" class="btn  text-white"> <i class="fa-solid fa-arrow-right"></i> <br /> Learn More </a>
-                                <a href="#" class="btn  text-white"> <i class="fa-regular fa-bookmark"></i> <br /> Save </a>
+                        <div class="card overflow-hidden " style={{ width: "100%" }}>
+                            <img class="card-img-top overflow-hidden " src="../../assets/images/02.webp" alt="Card image cap" />
+                            <div className="card-overlay position-absolute z-2 top-0">
+                                <div class="card-body  w-100 d-flex justify-content-between ">
+                                    <h4 className=" text-white">We Value Our People</h4>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -107,20 +108,22 @@ const Detail = () => {
                     {/* card */}
                     <div className=" col-lg-3 col-md-6 col-sm-12 position-relative text-start mt-2 mb-2">
                         <div className=" col-lg-12 col-md-12 col-sm-12 position-relative text-start mt-2 mb-2">
-                            <div class="card " style={{ width: "100%" }}>
-                                <img class="card-img-top overflow-hidden" src="../../assets/images/bl.jpg" alt="Card image cap" />
-                                <div class="card-body position-absolute z-2 bottom-0 w-100 d-flex justify-content-between ">
-                                    <a href="#" class="btn  text-white"> <i class="fa-solid fa-arrow-right"></i> <br /> Learn More </a>
-                                    <a href="#" class="btn  text-white"> <i class="fa-regular fa-bookmark"></i> <br /> Save </a>
+                            <div class="card overflow-hidden " style={{ width: "100%" }}>
+                                <img class="card-img-top overflow-hidden " src="../../assets/images/ourvalues.webp" alt="Card image cap" />
+                                <div className="card-overlay position-absolute z-2 top-0">
+                                    <div class="card-body  w-100 d-flex justify-content-between ">
+                                        <h4 className=" text-white">We Value Our People</h4>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         <div className=" col-lg-12 col-md-12 col-sm-12 position-relative text-start mt-2 mb-2">
-                            <div class="card " style={{ width: "100%" }}>
-                                <img class="card-img-top overflow-hidden" src="../../assets/images/bl.jpg" alt="Card image cap" />
-                                <div class="card-body position-absolute z-2 bottom-0 w-100 d-flex justify-content-between ">
-                                    <a href="#" class="btn  text-white"> <i class="fa-solid fa-arrow-right"></i> <br /> Learn More </a>
-                                    <a href="#" class="btn  text-white"> <i class="fa-regular fa-bookmark"></i> <br /> Save </a>
+                            <div class="card overflow-hidden " style={{ width: "100%" }}>
+                                <img class="card-img-top overflow-hidden " src="../../assets/images/ourvalues1.webp" alt="Card image cap" />
+                                <div className="card-overlay position-absolute z-2 top-0">
+                                    <div class="card-body  w-100 d-flex justify-content-between ">
+                                        <h4 className=" text-white">We Value Our People</h4>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -132,13 +135,13 @@ const Detail = () => {
                             <h1 className=" ">Our Values</h1>
                             <p>We deliver a variety of solutions worldwide, from science and technology to sustainability and engineering.</p>
                         </div>
-                        <div class="card " style={{ width: "100%" }}>
-                            <img class="card-img-top overflow-hidden" src="../../assets/images/bl.jpg" alt="Card image cap" />
-                            <div class="card-body position-absolute z-2 bottom-0 w-100 d-flex justify-content-between ">
-                                <a href="#" class="btn  text-white"> <i class="fa-solid fa-arrow-right"></i> <br /> Learn More </a>
-                                <a href="#" class="btn  text-white"> <i class="fa-regular fa-bookmark"></i> <br /> Save </a>
+                        <div class="card overflow-hidden " style={{ width: "100%" }}>
+                            <img class="card-img-top overflow-hidden " src="../../assets/images/02.webp" alt="Card image cap" />
+                            <div className="card-overlay position-absolute z-2 top-0">
+                                <div class="card-body  w-100 d-flex justify-content-between ">
+                                    <h4 className=" text-white">We Value Our People</h4>
+                                </div>
                             </div>
-
                         </div>
 
                     </div>
@@ -147,13 +150,13 @@ const Detail = () => {
                     {/* card */}
                     <div className=" col-lg-3 col-md-6 col-sm-12 position-relative text-start mt-2 mb-2">
 
-                        <div class="card " style={{ width: "100%" }}>
-                            <img class="card-img-top overflow-hidden" src="../../assets/images/bl.jpg" alt="Card image cap" />
-                            <div class="card-body position-absolute z-2 bottom-0 w-100 d-flex justify-content-between ">
-                                <a href="#" class="btn  text-white"> <i class="fa-solid fa-arrow-right"></i> <br /> Learn More </a>
-                                <a href="#" class="btn  text-white"> <i class="fa-regular fa-bookmark"></i> <br /> Save </a>
+                        <div class="card overflow-hidden " style={{ width: "100%" }}>
+                            <img class="card-img-top overflow-hidden " src="../../assets/images/Belong.jpg" alt="Card image cap" />
+                            <div className="card-overlay position-absolute z-2 top-0">
+                                <div class="card-body  w-100 d-flex justify-content-between ">
+                                    <h4 className=" text-white">We Value Our People</h4>
+                                </div>
                             </div>
-
                         </div>
 
                     </div>

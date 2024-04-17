@@ -94,7 +94,7 @@ const ContactForm = () => {
                 <div className="form-group">
                     <p>Please Note: Job applications are only accepted through our careers page.</p>
                     <ReCAPTCHA
-                        sitekey="Your_ReCAPTCHA_Site_Key" // Replace with your actual site key
+                        sitekey="6Lex87wpAAAAACQiZJowYBI6xpjmxegIpC2ERZOl" // Replace with your actual site key
                         onChange={handleRecaptcha}
                         className="recaptcha-container"
                     />

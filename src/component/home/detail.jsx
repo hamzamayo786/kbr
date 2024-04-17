@@ -1,5 +1,7 @@
 import React from "react";
 import New_Insights from "./news&insight";
+import { Link } from "react-router-dom";
+
 
 const Detail = () => {
     return (
@@ -21,8 +23,8 @@ const Detail = () => {
                         <div class="card " style={{ width: "100%" }}>
                             <img class="card-img-top  overflow-hidden" src="../../assets/images/Belong.jpg" alt="Card image cap" />
                             <div class="card-body position-absolute z-2 bottom-0 w-100 d-flex justify-content-between ">
-                                <a href="#" class="btn  text-white"> <i class="fa-solid fa-arrow-right"></i> <br /> Learn More </a>
-                                <a href="#" class="btn  text-white"> <i class="fa-regular fa-bookmark"></i> <br /> Save </a>
+                                <Link to="#" class="btn  text-white"> <i class="fa-solid fa-arrow-right"></i> <br /> Learn More </Link>
+                                <Link to="#" class="btn  text-white"> <i class="fa-regular fa-bookmark"></i> <br /> Save </Link>
                             </div>
 
                         </div>
@@ -39,8 +41,8 @@ const Detail = () => {
                         <div class="card " style={{ width: "100%" }}>
                             <img class="card-img-top overflow-hidden" src="../../assets/images/Benefits_V2.jpg" alt="Card image cap" />
                             <div class="card-body position-absolute z-2 bottom-0 w-100 d-flex justify-content-between ">
-                                <a href="#" class="btn  text-white"> <i class="fa-solid fa-arrow-right"></i> <br /> Learn More </a>
-                                <a href="#" class="btn  text-white"> <i class="fa-regular fa-bookmark"></i> <br /> Save </a>
+                                <Link to="#" class="btn  text-white"> <i class="fa-solid fa-arrow-right"></i> <br /> Learn More </Link>
+                                <Link to="#" class="btn  text-white"> <i class="fa-regular fa-bookmark"></i> <br /> Save </Link>
                             </div>
 
                         </div>
@@ -55,8 +57,8 @@ const Detail = () => {
                         <div class="card " style={{ width: "100%" }}>
                             <img class="card-img-top overflow-hidden" src="../../assets/images/Grow.jpg.jpg" alt="Card image cap" />
                             <div class="card-body position-absolute z-2 bottom-0 w-100 d-flex justify-content-between ">
-                                <a href="#" class="btn  text-white"> <i class="fa-solid fa-arrow-right"></i> <br /> Learn More </a>
-                                <a href="#" class="btn  text-white"> <i class="fa-regular fa-bookmark"></i> <br /> Save </a>
+                                <Link to="#" class="btn  text-white"> <i class="fa-solid fa-arrow-right"></i> <br /> Learn More </Link>
+                                <Link to="#" class="btn  text-white"> <i class="fa-regular fa-bookmark"></i> <br /> Save </Link>
                             </div>
 
                         </div>
@@ -72,8 +74,8 @@ const Detail = () => {
                         <div class="card " style={{ width: "100%" }}>
                             <img class="card-img-top overflow-hidden" src="../../assets/images/Connect_V2.jpg.jpg" alt="Card image cap" />
                             <div class="card-body position-absolute z-2 bottom-0 w-100 d-flex justify-content-between ">
-                                <a href="#" class="btn  text-white"> <i class="fa-solid fa-arrow-right"></i> <br /> Learn More </a>
-                                <a href="#" class="btn  text-white"> <i class="fa-regular fa-bookmark"></i> <br /> Save </a>
+                                <Link to="#" class="btn  text-white"> <i class="fa-solid fa-arrow-right"></i> <br /> Learn More </Link>
+                                <Link to="#" class="btn  text-white"> <i class="fa-regular fa-bookmark"></i> <br /> Save </Link>
                             </div>
 
                         </div>
@@ -178,8 +180,8 @@ const Detail = () => {
                         <div class="card " style={{ width: "100%" }}>
                             <img class="card-img-top  overflow-hidden" src="../../assets/images/Homepage-Community.jpg" alt="Card image cap" />
                             <div class="card-body position-absolute z-2 bottom-0 w-100 d-flex justify-content-between ">
-                                <a href="#" class="btn  text-white"> <i class="fa-solid fa-arrow-right"></i> <br /> Learn More </a>
-                                <a href="#" class="btn  text-white"> <i class="fa-regular fa-bookmark"></i> <br /> Save </a>
+                                <Link to="#" class="btn  text-white"> <i class="fa-solid fa-arrow-right"></i> <br /> Learn More </Link>
+                                <Link to="#" class="btn  text-white"> <i class="fa-regular fa-bookmark"></i> <br /> Save </Link>
                             </div>
                         </div>
                     </div>
@@ -192,8 +194,8 @@ const Detail = () => {
                         <div class="card " style={{ width: "100%" }}>
                             <img class="card-img-top overflow-hidden" src="../../assets/images/Homepage-Culture.jpg" alt="Card image cap" />
                             <div class="card-body position-absolute z-2 bottom-0 w-100 d-flex justify-content-between ">
-                                <a href="#" class="btn  text-white"> <i class="fa-solid fa-arrow-right"></i> <br /> Learn More </a>
-                                <a href="#" class="btn  text-white"> <i class="fa-regular fa-bookmark"></i> <br /> Save </a>
+                                <Link to="#" class="btn  text-white"> <i class="fa-solid fa-arrow-right"></i> <br /> Learn More </Link>
+                                <Link to="#" class="btn  text-white"> <i class="fa-regular fa-bookmark"></i> <br /> Save </Link>
                             </div>
                         </div>
                     </div>
@@ -204,8 +206,8 @@ const Detail = () => {
                         <div class="card " style={{ width: "100%" }}>
                             <img class="card-img-top overflow-hidden" src="../../assets/images/team-passion.jpg" alt="Card image cap" />
                             <div class="card-body position-absolute z-2 bottom-0 w-100 d-flex justify-content-between ">
-                                <a href="#" class="btn  text-white"> <i class="fa-solid fa-arrow-right"></i> <br /> Learn More </a>
-                                <a href="#" class="btn  text-white"> <i class="fa-regular fa-bookmark"></i> <br /> Save </a>
+                                <Link to="#" class="btn  text-white"> <i class="fa-solid fa-arrow-right"></i> <br /> Learn More </Link>
+                                <Link to="#" class="btn  text-white"> <i class="fa-regular fa-bookmark"></i> <br /> Save </Link>
                             </div>
                         </div>
                     </div>
@@ -217,8 +219,8 @@ const Detail = () => {
                         <div class="card " style={{ width: "100%" }}>
                             <img class="card-img-top overflow-hidden" src="../../assets/images/Sustainability.jpg" alt="Card image cap" />
                             <div class="card-body position-absolute z-2 bottom-0 w-100 d-flex justify-content-between ">
-                                <a href="#" class="btn  text-white"> <i class="fa-solid fa-arrow-right"></i> <br /> Learn More </a>
-                                <a href="#" class="btn  text-white"> <i class="fa-regular fa-bookmark"></i> <br /> Save </a>
+                                <Link to="#" class="btn  text-white"> <i class="fa-solid fa-arrow-right"></i> <br /> Learn More </Link>
+                                <Link to="#" class="btn  text-white"> <i class="fa-regular fa-bookmark"></i> <br /> Save </Link>
                             </div>
                         </div>
                     </div>
@@ -244,8 +246,8 @@ const Detail = () => {
                                     <h4 class="card-title">Analyzing the Psychological Impact of the First Mars Habitat Simulation</h4>
                                 </div>
                                 <div class="card-icons col-md-4 text-end ">
-                                    <a href="insights_news" class="btn  text-white"> <i class="fa-solid fa-arrow-right"></i> <br /> Learn More </a>
-                                    <a href="#" class="btn  text-white"> <i class="fa-regular fa-bookmark"></i> <br /> Save </a>
+                                    <Link to="insights_news" class="btn  text-white"> <i class="fa-solid fa-arrow-right"></i> <br /> Learn More </Link>
+                                    <Link to="#" class="btn  text-white"> <i class="fa-regular fa-bookmark"></i> <br /> Save </Link>
                                 </div>
 
                             </div>
@@ -265,8 +267,8 @@ const Detail = () => {
                                     <h4 class="card-title">Analyzing the Psychological Impact of the First Mars Habitat Simulation</h4>
                                 </div>
                                 <div class="card-icons col-md-4 text-end ">
-                                    <a href="insights_news" class="btn  text-white"> <i class="fa-solid fa-arrow-right"></i> <br /> Learn More </a>
-                                    <a href="#" class="btn  text-white"> <i class="fa-regular fa-bookmark"></i> <br /> Save </a>
+                                    <Link to="insights_news" class="btn  text-white"> <i class="fa-solid fa-arrow-right"></i> <br /> Learn More </Link>
+                                    <Link to="#" class="btn  text-white"> <i class="fa-regular fa-bookmark"></i> <br /> Save </Link>
                                 </div>
 
                             </div>
@@ -285,8 +287,8 @@ const Detail = () => {
                                     <h4 class="card-title">Analyzing the Psychological Impact of the First Mars Habitat Simulation</h4>
                                 </div>
                                 <div class="card-icons col-md-4 text-end ">
-                                    <a href="insights_news" class="btn  text-white"> <i class="fa-solid fa-arrow-right"></i> <br /> Learn More </a>
-                                    <a href="#" class="btn  text-white"> <i class="fa-regular fa-bookmark"></i> <br /> Save </a>
+                                    <Link to="insights_news" class="btn  text-white"> <i class="fa-solid fa-arrow-right"></i> <br /> Learn More </Link>
+                                    <Link to="#" class="btn  text-white"> <i class="fa-regular fa-bookmark"></i> <br /> Save </Link>
                                 </div>
 
                             </div>
@@ -306,8 +308,8 @@ const Detail = () => {
                                     <h4 class="card-title">Analyzing the Psychological Impact of the First Mars Habitat Simulation</h4>
                                 </div>
                                 <div class="card-icons col-md-4 text-end ">
-                                    <a href="insights_news" class="btn  text-white"> <i class="fa-solid fa-arrow-right"></i> <br /> Learn More </a>
-                                    <a href="#" class="btn  text-white"> <i class="fa-regular fa-bookmark"></i> <br /> Save </a>
+                                    <Link to="insights_news" class="btn  text-white"> <i class="fa-solid fa-arrow-right"></i> <br /> Learn More </Link>
+                                    <Link to="#" class="btn  text-white"> <i class="fa-regular fa-bookmark"></i> <br /> Save </Link>
                                 </div>
 
                             </div>
@@ -315,7 +317,7 @@ const Detail = () => {
                     </div>
                     {/* card */}
                     <div class="card-icons col-12 text-center ">
-                        <a href="insights_news" class="btn  txt-primary mt-5"> VIEW ALL NEWS & INSIGHTS </a>
+                        <Link to="insights_news" class="btn  txt-primary mt-5"> VIEW ALL NEWS & INSIGHTS </Link>
 
                     </div>
                 </div>

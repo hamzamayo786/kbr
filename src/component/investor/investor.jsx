@@ -1,6 +1,8 @@
 import React, { useEffect, useRef } from 'react';
 import './investor.css';
 import '../../assets/js/investor.js'
+import { Link } from "react-router-dom";
+
 
 
 function Investor() {
@@ -39,8 +41,8 @@ function Investor() {
                     <div class="investor-content">
                         <h1>KBR's 2024 Investor Day</h1>
                         <p class="date">May 8, 2024</p>
-                        <a href="#" class="webcast-link">Webcast</a><br />
-                        <a href="#" class="read-more">Read More <i class="fa-solid fa-arrow-right"></i></a>
+                        <Link to="#" class="webcast-link">Webcast</Link><br />
+                        <Link to="#" class="read-more">Read More <i class="fa-solid fa-arrow-right"></i></Link>
                     </div>
 
                     <div class="investor-stock-info">
@@ -56,7 +58,7 @@ function Investor() {
                                         <span class="module-stock-header_date">Date of April 05, 2024</span>
                                         <span class="module-stock-header_description3">Pricing delayed by 20 minutes</span>
                                     </span></div>
-                                <a href="/stock-info/stock-quote-and-chart/default.aspx" title="View More About Stock Quote" class="button--cta">View More <i class="fa-solid fa-arrow-right"></i></a>
+                                <Link to="/stock-info/stock-quote-and-chart/default.aspx" title="View More About Stock Quote" class="button--cta">View More <i class="fa-solid fa-arrow-right"></i></Link>
                             </div>
                         </div>
                         <div className='investor-stock-image'>
@@ -69,7 +71,7 @@ function Investor() {
                     <div className='about-heading mt-5 mb-5 '>
                         <h3 className='txt-primary mt-4 mb-4'>About US</h3>
                         <p className=' fs-5'>KBR delivers science, technology and engineering solutions to governments and companies around the world. Drawing from its rich 100-year history and culture of innovation and mission focus, KBR creates sustainable value by helping clients meet their most pressing challenges today and into the future.</p>
-                        <a href="" title="View More About Stock Quote" class="button btn btn-primary">View More <i class="fa-solid fa-arrow-right"></i></a>
+                        <Link to="" title="View More About Stock Quote" class="button btn btn-primary">View More <i class="fa-solid fa-arrow-right"></i></Link>
                     </div>
                     {/* about us */}
                     {/* cards */}
@@ -78,7 +80,7 @@ function Investor() {
                             <div class="card" style={{ width: "100%" }}>
                                 <img src="../../../assets/images/chart.jpg" class="card-img-top img-fluid" alt="..." />
                                 <div class="card-body d-flex align-items-center ">
-                                    <p class="card-title txt-primary">KBR At a GlanceKBR At a Glance<a href="#" class="btn">  <i class="fa-solid fa-arrow-right"></i> <br /></a></p>
+                                    <p class="card-title txt-primary">KBR At a GlanceKBR At a Glance<Link to="#" class="btn">  <i class="fa-solid fa-arrow-right"></i> <br /></Link></p>
 
                                 </div>
                             </div>
@@ -87,7 +89,7 @@ function Investor() {
                             <div class="card" style={{ width: "100%" }}>
                                 <img src="../../../assets/images/chart.jpg" class="card-img-top img-fluid" alt="..." />
                                 <div class="card-body d-flex align-items-center ">
-                                    <p class="card-title txt-primary">KBR At a GlanceKBR At a Glance<a href="#" class="btn">  <i class="fa-solid fa-arrow-right"></i> <br /></a></p>
+                                    <p class="card-title txt-primary">KBR At a GlanceKBR At a Glance<Link to="#" class="btn">  <i class="fa-solid fa-arrow-right"></i> <br /></Link></p>
 
                                 </div>
                             </div>
@@ -96,7 +98,7 @@ function Investor() {
                             <div class="card" style={{ width: "100%" }}>
                                 <img src="../../../assets/images/chart.jpg" class="card-img-top img-fluid" alt="..." />
                                 <div class="card-body d-flex align-items-center ">
-                                    <p class="card-title txt-primary">KBR At a GlanceKBR At a Glance<a href="#" class="btn">  <i class="fa-solid fa-arrow-right"></i> <br /></a></p>
+                                    <p class="card-title txt-primary">KBR At a GlanceKBR At a Glance<Link to="#" class="btn">  <i class="fa-solid fa-arrow-right"></i> <br /></Link></p>
 
                                 </div>
                             </div>
@@ -105,7 +107,7 @@ function Investor() {
                             <div class="card" style={{ width: "100%" }}>
                                 <img src="../../../assets/images/chart.jpg" class="card-img-top img-fluid" alt="..." />
                                 <div class="card-body d-flex align-items-center ">
-                                    <p class="card-title txt-primary">KBR At a GlanceKBR At a Glance<a href="#" class="btn">  <i class="fa-solid fa-arrow-right"></i> <br /></a></p>
+                                    <p class="card-title txt-primary">KBR At a GlanceKBR At a Glance<Link to="#" class="btn">  <i class="fa-solid fa-arrow-right"></i> <br /></Link></p>
 
                                 </div>
                             </div>
@@ -170,7 +172,7 @@ function Investor() {
                                         <i class="bi bi-file-earmark-text-fill"></i> Presentation<br />
                                         <i class="bi bi-journal-bookmark-fill"></i> Supplement
                                     </p>
-                                    <a href="#" class="card-link text-primary">Read More &rarr;</a>
+                                    <Link to="#" class="card-link text-primary">Read More &rarr;</Link>
                                 </div>
                             </div>
                         </div>
@@ -188,7 +190,7 @@ function Investor() {
                                         <i class="bi bi-file-earmark-text-fill"></i> Presentation<br />
                                         <i class="bi bi-journal-bookmark-fill"></i> Supplement
                                     </p>
-                                    <a href="#" class="card-link text-primary">Read More &rarr;</a>
+                                    <Link to="#" class="card-link text-primary">Read More &rarr;</Link>
                                 </div>
                             </div>
                         </div>
@@ -206,7 +208,7 @@ function Investor() {
                                         <i class="bi bi-file-earmark-text-fill"></i> Presentation<br />
                                         <i class="bi bi-journal-bookmark-fill"></i> Supplement
                                     </p>
-                                    <a href="#" class="card-link text-primary">Read More &rarr;</a>
+                                    <Link to="#" class="card-link text-primary">Read More &rarr;</Link>
                                 </div>
                             </div>
                         </div>
@@ -224,7 +226,7 @@ function Investor() {
                                         <i class="bi bi-file-earmark-text-fill"></i> Presentation<br />
                                         <i class="bi bi-journal-bookmark-fill"></i> Supplement
                                     </p>
-                                    <a href="#" class="card-link text-primary">Read More &rarr;</a>
+                                    <Link to="#" class="card-link text-primary">Read More &rarr;</Link>
                                 </div>
                             </div>
                         </div>

@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 
 const Banner2 = (props) => {
     return (
@@ -10,9 +12,9 @@ const Banner2 = (props) => {
 
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="#">Home</a></li>
-                            <li class="breadcrumb-item"><a href="#">Library</a></li>
-                            <li class="breadcrumb-item"><a href="#">Data</a></li>
+                            <li class="breadcrumb-item"><Link href="#">Home</Link></li>
+                            <li class="breadcrumb-item"><Link href="#">Library</Link></li>
+                            <li class="breadcrumb-item"><Link href="#">Data</Link></li>
                         </ol>
                     </nav>
 

@@ -14,15 +14,15 @@ const PrivacyPolicy = () => {
                     </p><br/> <br/>
                     <span className=" lh-lg"> This Privacy Notice addresses the following topics:</span>
                     <ul>
-                        <li> <a href="#!" className="txt-primary"> Purpose of This Privacy Notice</a></li>
-                        <li> <a href="#!" className="txt-primary"> Purpose of This Privacy Notice</a></li>
-                        <li> <a href="#!" className="txt-primary"> Purpose of This Privacy Notice</a></li>
-                        <li> <a href="#!" className="txt-primary"> Purpose of This Privacy Notice</a></li>
-                        <li> <a href="#!" className="txt-primary"> Purpose of This Privacy Notice</a></li>
-                        <li> <a href="#!" className="txt-primary"> Purpose of This Privacy Notice</a></li>
-                        <li> <a href="#!" className="txt-primary"> Purpose of This Privacy Notice</a></li>
-                        <li> <a href="#!" className="txt-primary"> Purpose of This Privacy Notice</a></li>
-                        <li> <a href="#!" className="txt-primary"> Purpose of This Privacy Notice</a></li>
+                        <li> <Link href="#!" className="txt-primary"> Purpose of This Privacy Notice</Link></li>
+                        <li> <Link href="#!" className="txt-primary"> Purpose of This Privacy Notice</Link></li>
+                        <li> <Link href="#!" className="txt-primary"> Purpose of This Privacy Notice</Link></li>
+                        <li> <Link href="#!" className="txt-primary"> Purpose of This Privacy Notice</Link></li>
+                        <li> <Link href="#!" className="txt-primary"> Purpose of This Privacy Notice</Link></li>
+                        <li> <Link href="#!" className="txt-primary"> Purpose of This Privacy Notice</Link></li>
+                        <li> <Link href="#!" className="txt-primary"> Purpose of This Privacy Notice</Link></li>
+                        <li> <Link href="#!" className="txt-primary"> Purpose of This Privacy Notice</Link></li>
+                        <li> <Link href="#!" className="txt-primary"> Purpose of This Privacy Notice</Link></li>
                     </ul>
 
                     <p className=" txt-primary display-6 mt-5 mb-5"> Purpose of This Privacy Notice</p>

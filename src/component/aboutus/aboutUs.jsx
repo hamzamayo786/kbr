@@ -2,6 +2,8 @@ import React from "react";
 import Banner2 from "../../layout/banner2";
 import './css/style.css'
 import New_Insights from "../home/news&insight";
+import { Link } from "react-router-dom";
+
 
 const AboutUs = () => {
     return (
@@ -22,7 +24,7 @@ const AboutUs = () => {
                             </div>
                         </div>
                     </div>
-                    <button className="px-3 py-2 rounded border bg-dark-subtle"><a href="what-we-do" className="txt-primary">Discover More</a></button>
+                    <button className="px-3 py-2 rounded border bg-dark-subtle"><Link href="what-we-do" className="txt-primary">Discover More</Link></button>
 
                 </div>
                 {/* video */}
@@ -40,7 +42,7 @@ const AboutUs = () => {
                         <h2>Zero Harm</h2>
                         <p>KBR’s sustainability policy was built on the foundation of our industry-leading Zero Harm safety platform.</p>
                         <p>Just as we’re committed to safeguarding the health and safety of our people, we are also committed to doing what’s right and making decisions that count for our planet, our communities, our business, and future generations.</p>
-                        <a href="#" class="learn-more-btn">Learn More &rarr;</a>
+                        <Link href="#" class="learn-more-btn">Learn More &rarr;</Link>
                     </div>
                     <div class="image-container">
                         <img className="img-fluid w-100" src="../../../../assets/images/Zero-Harm.jpg" alt="KBR team" />
@@ -54,7 +56,7 @@ const AboutUs = () => {
                         <h2>Zero Harm</h2>
                         <p>KBR’s sustainability policy was built on the foundation of our industry-leading Zero Harm safety platform.</p>
                         <p>Just as we’re committed to safeguarding the health and safety of our people, we are also committed to doing what’s right and making decisions that count for our planet, our communities, our business, and future generations.</p>
-                        <a href="#" class="learn-more-btn">Learn More &rarr;</a>
+                        <Link href="#" class="learn-more-btn">Learn More &rarr;</Link>
                     </div>
                     <div class="image-container">
                         <img className="img-fluid w-100" src="../../../../assets/images/Zero-Harm.jpg" alt="KBR team" />
@@ -68,7 +70,7 @@ const AboutUs = () => {
                         <h2>Zero Harm</h2>
                         <p>KBR’s sustainability policy was built on the foundation of our industry-leading Zero Harm safety platform.</p>
                         <p>Just as we’re committed to safeguarding the health and safety of our people, we are also committed to doing what’s right and making decisions that count for our planet, our communities, our business, and future generations.</p>
-                        <a href="#" class="learn-more-btn">Learn More &rarr;</a>
+                        <Link href="#" class="learn-more-btn">Learn More &rarr;</Link>
                     </div>
                     <div class="image-container">
                         <img className="img-fluid w-100" src="../../../../assets/images/Zero-Harm.jpg" alt="KBR team" />
@@ -81,7 +83,7 @@ const AboutUs = () => {
                 <div class="container">
                     <h1 className="txt-primary">Join Our Team</h1>
                     <p>The people of KBR change the world every day, providing the intelligence to solve any challenge. If you're up to the task, we want you on our team.</p>
-                    <a href="Careers" class="search-jobs-btn">SEARCH JOB OPENINGS</a>
+                    <Link to="careers" class="search-jobs-btn">SEARCH JOB OPENINGS</Link>
                 </div>
             </div>
 

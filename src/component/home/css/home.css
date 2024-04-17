@@ -53,6 +53,7 @@ h1{
     height: 50vh;
 
 }
+/* animations */
 
 .card{
     transition: .4s all ease;

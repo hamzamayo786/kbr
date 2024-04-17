@@ -16,13 +16,15 @@ import Investor from './component/investor/investor';
 import PrivacyPolicy from './component/Policy/privacy-policy';
 import Term_Condition from './component/Policy/term&condition';
 import JoinTalentCommunity from './component/jobs-components/applyform';
+import ScrollToTop from './layout/ScrollToTop';
 
 function App() {
+  
   return (
     <>
       <Header />
+        <ScrollToTop/>
         <Routes>
-
           <Route path='' element={<Home />} />
           <Route path='what-we-do' element={<WhatWeDo />} />
           <Route path='suitable-tec' element={<SuitableTec />} />

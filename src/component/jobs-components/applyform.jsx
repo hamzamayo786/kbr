@@ -32,7 +32,7 @@ function JoinTalentCommunity() {
         console.log(formData);
         alert("Your Application is Successfully Submit")
 
-       Navigate('/Careers');
+       Navigate('/careers');
         
     };
 

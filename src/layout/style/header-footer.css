@@ -125,6 +125,12 @@ a {
     text-decoration: none !important;
     color: #fff;
 }
+Link{
+  font-weight: 400 !important;
+  font-family: "Poppins", sans-serif;
+  
+
+}
 .navbar{
     background-color: #0B5184 !important;
 }

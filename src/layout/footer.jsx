@@ -58,16 +58,16 @@ const Footer = () => {
 
                                 </h6>
                                 <p>
-                                    <a href="/" class="text-reset">Home</a>
+                                    <Link to="/" class="text-reset">Home</Link>
                                 </p>
                                 <p>
-                                    <a href="/what-we-do" class="text-reset">What WE DO</a>
+                                    <Link to="/what-we-do" class="text-reset">What WE DO</Link>
                                 </p>
                                 <p>
-                                    <a href="/who-we-are" class="text-reset">About US</a>
+                                    <Link to="/who-we-are" class="text-reset">About US</Link>
                                 </p>
                                 <p>
-                                    <a href="/careers" class="text-reset">Careers</a>
+                                    <Link to="/careers" class="text-reset">Careers</Link>
                                 </p>
                             </div>
 
@@ -77,19 +77,19 @@ const Footer = () => {
 
                                 </h6>
                                 <p>
-                                    <a href="insights_news" class="text-reset">Insights & News</a>
+                                    <Link to="insights_news" class="text-reset">Insights & News</Link>
                                 </p>
                                 <p>
-                                    <a href="#!" class="text-reset">Investor</a>
+                                    <Link to="#!" class="text-reset">Investor</Link>
                                 </p>
                                 <p>
-                                    <a href="contact-us" class="text-reset">Contact Us</a>
+                                    <Link to="contact-us" class="text-reset">Contact Us</Link>
                                 </p>
                                 <p>
-                                    <a href="privacy-policy" class="text-reset">Privacy Policy</a>
+                                    <Link to="privacy-policy" class="text-reset">Privacy Policy</Link>
                                 </p>
                                 <p>
-                                    <a href="terms&conditions" class="text-reset">Terms And Conditions</a>
+                                    <Link to="terms&conditions" class="text-reset">Terms And Conditions</Link>
                                 </p>
                             </div>
                             <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
@@ -113,7 +113,7 @@ const Footer = () => {
                 <div className="text-center p-4" style={{ backgroundColor: "rgba(0, 0, 0, 0.05)" }}>
                     © 2024 Copyright :
                     <Link className="text-reset fw-bold" to=""> AWH,LLC</Link> <br />
-                    <a className="text-reset fw-bold" to="">Designed by <a href="https://bmymarketer.com/" target="_blank">bmymarketer</a></a>
+                    <Link className="text-reset fw-bold" to="">Designed by <Link to="https://bmymarketer.com/" target="_blank">bmymarketer</Link></Link>
                 </div>
 
             </footer>
@@ -125,11 +125,11 @@ const Footer = () => {
                 </div>
                 <div class="offcanvas-body">
                     <ul class="nav flex-column">
-                        <li class="nav-item mb-2"><a href="#" class="nav-link active" aria-current="page">Who We Are</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link">What We Do</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link">Careers</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link">Insights & News</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link">Investor Relations</a></li>
+                        <li class="nav-item mb-2"><Link to="#" class="nav-link active" aria-current="page">Who We Are</Link></li>
+                        <li class="nav-item mb-2"><Link to="#" class="nav-link">What We Do</Link></li>
+                        <li class="nav-item mb-2"><Link to="#" class="nav-link">Careers</Link></li>
+                        <li class="nav-item mb-2"><Link to="#" class="nav-link">Insights & News</Link></li>
+                        <li class="nav-item mb-2"><Link to="#" class="nav-link">Investor Relations</Link></li>
                     </ul>
                 </div>
             </div>

@@ -1,6 +1,7 @@
 import React from "react";
 import Banner2 from "../../layout/banner2";
 import "./blog.css"
+import { Link } from "react-router-dom";
 
 const BlogDetail = (props) => {
     return (
@@ -29,7 +30,7 @@ const BlogDetail = (props) => {
                         <br />
                         KBR is proud to work with its customers across the globe to provide technology, value-added services, and long-term operations and maintenance services to ensure consistent delivery with predictable results. At KBR, We Deliver.
                         <br />
-                        Visit <a href="#1">www.kbr.com</a>
+                        Visit <Link href="#1">www.kbr.com</Link>
                     </p>
                     <h6 className=" mt-5 mb-5">Forward Looking Statements</h6>
                     <p>The statements in this press release that are not historical statements, including statements regarding future contractual and process performance, are forward-looking statements within the meaning of the federal securities laws. These statements are subject to numerous risks, uncertainties and assumptions, many of which are beyond the company’s control, that could cause actual results to differ materially from the results expressed or implied by the statements. These risks, uncertainties and assumptions include, but are not limited to, those set forth in the company’s most recently filed Annual Report on Form 10-K, any subsequent Form 10-Qs and 8-Ks and other U.S. Securities and Exchange Commission filings, which discuss some of the important risks, uncertainties and assumptions that the company has identified that may affect its business, results of operations and financial condition. Due to such risks, uncertainties and assumptions, you are cautioned not to place undue reliance on such forward-looking statements, which speak only as of the date hereof.  Except as required by law, the company undertakes no obligation to revise or update publicly any forward-looking statements for any reason.</p>

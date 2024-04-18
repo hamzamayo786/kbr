@@ -51,6 +51,7 @@ h1{
 .card-overlay{
     background-color: #0005095e;
     height: 50vh;
+    width: 100%;
 
 }
 /* animations */

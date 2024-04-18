@@ -75,3 +75,19 @@ h1{
   .card a:hover .fa-bookmark{
     transform: translateY(-10px);
   }
+  .value-section-btn{
+    color: black;
+    border: 1px solid black;
+    padding: 8px 12px;
+    border-radius: 100px;
+
+  }
+  .values-btn{
+    font-size: 3.5rem;
+  }
+  .values-parent{
+    line-height: 6;
+  }
+  .passion-heading{
+    font-size: 1.2rem;
+  }

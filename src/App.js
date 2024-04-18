@@ -17,6 +17,7 @@ import PrivacyPolicy from './component/Policy/privacy-policy';
 import Term_Condition from './component/Policy/term&condition';
 import JoinTalentCommunity from './component/jobs-components/applyform';
 import ScrollToTop from './layout/ScrollToTop';
+import Vision from './component/Policy/vision-value';
 
 function App() {
   
@@ -36,6 +37,7 @@ function App() {
           <Route path='investor' element={<Investor />} />
           <Route path='contact-us' element={<ContactUs />} />
           <Route path='privacy-policy' element={<PrivacyPolicy />} />
+          <Route path='vision-value' element={<Vision/>} />
           <Route path='terms&conditions' element={<Term_Condition />} />
           <Route path='/jointalentcommunity/:id' element={<JoinTalentCommunity/>}/>
         </Routes>
